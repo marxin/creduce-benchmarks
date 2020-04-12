@@ -1,0 +1,939 @@
+TMPDIR=/dev/shm/tmp creduce --n 16 reduce-ice.sh pr94526.i --timing
+===< 27605 >===
+running 16 interestingness tests in parallel
+===< pass_unifdef :: 0 >===
+===< pass_comments :: 0 >===
+===< pass_ifs :: 0 >===
+===< pass_includes :: 0 >===
+===< pass_line_markers :: 0 >===
+(20.1 %, 176281 bytes)
+timestamp 1 size 176281
+===< pass_blank :: 0 >===
+(21.8 %, 172430 bytes)
+timestamp 1 size 172430
+===< pass_clang_binsrch :: replace-function-def-with-decl >===
+(22.8 %, 170259 bytes)
+timestamp 2 size 170259
+(23.4 %, 168896 bytes)
+timestamp 2 size 168896
+===< pass_clang_binsrch :: remove-unused-function >===
+(55.1 %, 99033 bytes)
+timestamp 3 size 99033
+===< pass_lines :: 0 >===
+(54.6 %, 100087 bytes)
+timestamp 3 size 100087
+(57.0 %, 94931 bytes)
+timestamp 4 size 94931
+(59.9 %, 88492 bytes)
+timestamp 4 size 88492
+(63.1 %, 81347 bytes)
+timestamp 4 size 81347
+(65.2 %, 76813 bytes)
+timestamp 5 size 76813
+(66.3 %, 74353 bytes)
+timestamp 5 size 74353
+(67.6 %, 71430 bytes)
+timestamp 5 size 71430
+(68.6 %, 69229 bytes)
+timestamp 6 size 69229
+(69.8 %, 66659 bytes)
+timestamp 6 size 66659
+(70.8 %, 64341 bytes)
+timestamp 6 size 64341
+(71.1 %, 63747 bytes)
+timestamp 7 size 63747
+(71.9 %, 61902 bytes)
+timestamp 7 size 61902
+(72.8 %, 60095 bytes)
+timestamp 7 size 60095
+(73.3 %, 58850 bytes)
+timestamp 7 size 58850
+(73.8 %, 57862 bytes)
+timestamp 8 size 57862
+(74.6 %, 55994 bytes)
+timestamp 8 size 55994
+(75.2 %, 54667 bytes)
+timestamp 8 size 54667
+(75.6 %, 53766 bytes)
+timestamp 9 size 53766
+(76.1 %, 52777 bytes)
+timestamp 9 size 52777
+(76.9 %, 50891 bytes)
+timestamp 9 size 50891
+(77.2 %, 50275 bytes)
+timestamp 10 size 50275
+(77.5 %, 49617 bytes)
+timestamp 10 size 49617
+(78.3 %, 47821 bytes)
+timestamp 10 size 47821
+(78.5 %, 47516 bytes)
+timestamp 10 size 47516
+(78.6 %, 47206 bytes)
+timestamp 11 size 47206
+(79.1 %, 46071 bytes)
+timestamp 11 size 46071
+(79.8 %, 44639 bytes)
+timestamp 11 size 44639
+(80.1 %, 44013 bytes)
+timestamp 12 size 44013
+(80.4 %, 43186 bytes)
+timestamp 12 size 43186
+(80.9 %, 42217 bytes)
+timestamp 12 size 42217
+(81.1 %, 41681 bytes)
+timestamp 12 size 41681
+(81.4 %, 41028 bytes)
+timestamp 13 size 41028
+(81.6 %, 40613 bytes)
+timestamp 13 size 40613
+(81.9 %, 39996 bytes)
+timestamp 13 size 39996
+(82.3 %, 38992 bytes)
+timestamp 14 size 38992
+(82.8 %, 37909 bytes)
+timestamp 14 size 37909
+(83.0 %, 37453 bytes)
+timestamp 14 size 37453
+(83.3 %, 36816 bytes)
+timestamp 14 size 36816
+(83.6 %, 36174 bytes)
+timestamp 15 size 36174
+(83.9 %, 35603 bytes)
+timestamp 15 size 35603
+(84.1 %, 35041 bytes)
+timestamp 15 size 35041
+(84.6 %, 34030 bytes)
+timestamp 16 size 34030
+(84.9 %, 33379 bytes)
+timestamp 16 size 33379
+(85.2 %, 32563 bytes)
+timestamp 16 size 32563
+(85.8 %, 31235 bytes)
+timestamp 16 size 31235
+(86.1 %, 30641 bytes)
+timestamp 17 size 30641
+(86.4 %, 30045 bytes)
+timestamp 17 size 30045
+(86.7 %, 29239 bytes)
+timestamp 17 size 29239
+(87.2 %, 28155 bytes)
+timestamp 18 size 28155
+(87.7 %, 27149 bytes)
+timestamp 18 size 27149
+(88.1 %, 26147 bytes)
+timestamp 18 size 26147
+(88.6 %, 25203 bytes)
+timestamp 18 size 25203
+(89.2 %, 23897 bytes)
+timestamp 19 size 23897
+(89.3 %, 23527 bytes)
+timestamp 19 size 23527
+(89.5 %, 23076 bytes)
+timestamp 19 size 23076
+(89.7 %, 22772 bytes)
+timestamp 19 size 22772
+(90.3 %, 21387 bytes)
+timestamp 20 size 21387
+(90.5 %, 21069 bytes)
+timestamp 20 size 21069
+(90.6 %, 20813 bytes)
+timestamp 20 size 20813
+(90.7 %, 20583 bytes)
+timestamp 21 size 20583
+(90.8 %, 20383 bytes)
+timestamp 21 size 20383
+(91.2 %, 19513 bytes)
+timestamp 21 size 19513
+(92.1 %, 17539 bytes)
+timestamp 21 size 17539
+(96.1 %, 8677 bytes)
+timestamp 22 size 8677
+(96.2 %, 8364 bytes)
+timestamp 22 size 8364
+(96.3 %, 8072 bytes)
+timestamp 22 size 8072
+(96.5 %, 7760 bytes)
+timestamp 23 size 7760
+(96.6 %, 7517 bytes)
+timestamp 23 size 7517
+(96.7 %, 7196 bytes)
+timestamp 23 size 7196
+(96.9 %, 6811 bytes)
+timestamp 23 size 6811
+(97.1 %, 6449 bytes)
+timestamp 24 size 6449
+(97.2 %, 6088 bytes)
+timestamp 24 size 6088
+(97.4 %, 5803 bytes)
+timestamp 24 size 5803
+(97.5 %, 5489 bytes)
+timestamp 25 size 5489
+(97.6 %, 5192 bytes)
+timestamp 25 size 5192
+(97.7 %, 5037 bytes)
+timestamp 25 size 5037
+(97.8 %, 4853 bytes)
+timestamp 25 size 4853
+(97.9 %, 4709 bytes)
+timestamp 26 size 4709
+(97.9 %, 4567 bytes)
+timestamp 26 size 4567
+(98.0 %, 4427 bytes)
+timestamp 26 size 4427
+(98.1 %, 4296 bytes)
+timestamp 27 size 4296
+(98.1 %, 4202 bytes)
+timestamp 27 size 4202
+(98.2 %, 4056 bytes)
+timestamp 27 size 4056
+(98.2 %, 3959 bytes)
+timestamp 27 size 3959
+(98.2 %, 3867 bytes)
+timestamp 28 size 3867
+(98.3 %, 3808 bytes)
+timestamp 28 size 3808
+(98.3 %, 3743 bytes)
+timestamp 28 size 3743
+(98.4 %, 3543 bytes)
+timestamp 29 size 3543
+(98.5 %, 3364 bytes)
+timestamp 29 size 3364
+(98.5 %, 3275 bytes)
+timestamp 29 size 3275
+(98.5 %, 3212 bytes)
+timestamp 29 size 3212
+(98.6 %, 3102 bytes)
+timestamp 30 size 3102
+(98.7 %, 2946 bytes)
+timestamp 30 size 2946
+(98.7 %, 2931 bytes)
+timestamp 30 size 2931
+(98.7 %, 2853 bytes)
+timestamp 30 size 2853
+(98.7 %, 2798 bytes)
+timestamp 31 size 2798
+(98.8 %, 2720 bytes)
+timestamp 31 size 2720
+(98.8 %, 2579 bytes)
+timestamp 31 size 2579
+(98.9 %, 2503 bytes)
+timestamp 32 size 2503
+(98.9 %, 2395 bytes)
+timestamp 32 size 2395
+(99.0 %, 2285 bytes)
+timestamp 32 size 2285
+(99.0 %, 2229 bytes)
+timestamp 32 size 2229
+(99.0 %, 2119 bytes)
+timestamp 33 size 2119
+(99.1 %, 2063 bytes)
+timestamp 33 size 2063
+(99.1 %, 1975 bytes)
+timestamp 33 size 1975
+(99.1 %, 1941 bytes)
+timestamp 33 size 1941
+(99.2 %, 1839 bytes)
+timestamp 34 size 1839
+(99.2 %, 1789 bytes)
+timestamp 34 size 1789
+(99.2 %, 1687 bytes)
+timestamp 34 size 1687
+(99.3 %, 1583 bytes)
+timestamp 34 size 1583
+(99.3 %, 1489 bytes)
+timestamp 34 size 1489
+(99.4 %, 1414 bytes)
+timestamp 35 size 1414
+(99.4 %, 1320 bytes)
+timestamp 35 size 1320
+(99.4 %, 1218 bytes)
+timestamp 35 size 1218
+(99.5 %, 1206 bytes)
+timestamp 35 size 1206
+(99.5 %, 1170 bytes)
+timestamp 35 size 1170
+(99.5 %, 1126 bytes)
+timestamp 36 size 1126
+(99.5 %, 1068 bytes)
+timestamp 36 size 1068
+(99.5 %, 1013 bytes)
+timestamp 36 size 1013
+(99.6 %, 986 bytes)
+timestamp 36 size 986
+(99.6 %, 956 bytes)
+timestamp 36 size 956
+(99.6 %, 894 bytes)
+timestamp 36 size 894
+===< pass_lines :: 1 >===
+(99.6 %, 917 bytes)
+timestamp 37 size 917
+(99.6 %, 904 bytes)
+timestamp 37 size 904
+(99.6 %, 880 bytes)
+timestamp 37 size 880
+(99.6 %, 857 bytes)
+timestamp 37 size 857
+(99.6 %, 801 bytes)
+timestamp 37 size 801
+(99.7 %, 768 bytes)
+timestamp 38 size 768
+(99.7 %, 756 bytes)
+timestamp 38 size 756
+===< pass_lines :: 2 >===
+(99.6 %, 775 bytes)
+timestamp 38 size 775
+(99.7 %, 610 bytes)
+timestamp 38 size 610
+===< pass_lines :: 3 >===
+(99.7 %, 628 bytes)
+timestamp 39 size 628
+===< pass_lines :: 4 >===
+(99.7 %, 646 bytes)
+timestamp 39 size 646
+===< pass_lines :: 6 >===
+(99.7 %, 664 bytes)
+timestamp 39 size 664
+===< pass_lines :: 8 >===
+(99.7 %, 682 bytes)
+timestamp 40 size 682
+===< pass_lines :: 10 >===
+(99.7 %, 700 bytes)
+timestamp 40 size 700
+===< pass_clang_binsrch :: replace-function-def-with-decl >===
+===< pass_clang_binsrch :: remove-unused-function >===
+===< pass_clang :: remove-unused-function >===
+===< pass_balanced :: curly >===
+===< pass_balanced :: curly2 >===
+(99.7 %, 688 bytes)
+timestamp 41 size 688
+===< pass_balanced :: curly3 >===
+===< pass_balanced :: parens-to-zero >===
+(99.7 %, 670 bytes)
+timestamp 41 size 670
+===< pass_clang :: callexpr-to-value >===
+===< pass_clang :: replace-callexpr >===
+===< pass_clang :: simplify-callexpr >===
+===< pass_clang :: remove-unused-enum-member >===
+===< pass_clang :: remove-enum-member-value >===
+===< pass_clang_binsrch :: remove-unused-var >===
+===< pass_special :: a >===
+===< pass_special :: b >===
+===< pass_special :: c >===
+===< pass_include_includes :: 0 >===
+===< pass_ternary :: b >===
+===< pass_ternary :: c >===
+===< pass_balanced :: curly >===
+===< pass_balanced :: curly2 >===
+===< pass_balanced :: curly3 >===
+===< pass_balanced :: parens >===
+===< pass_balanced :: angles >===
+===< pass_balanced :: square >===
+(99.7 %, 667 bytes)
+timestamp 42 size 667
+===< pass_balanced :: curly-inside >===
+===< pass_balanced :: parens-inside >===
+(99.7 %, 661 bytes)
+timestamp 42 size 661
+(99.7 %, 657 bytes)
+timestamp 42 size 657
+===< pass_balanced :: angles-inside >===
+===< pass_balanced :: square-inside >===
+===< pass_balanced :: curly-only >===
+===< pass_balanced :: angles-only >===
+===< pass_balanced :: square-only >===
+===< pass_clang :: remove-namespace >===
+===< pass_clang :: aggregate-to-scalar >===
+===< pass_clang :: param-to-global >===
+(99.7 %, 664 bytes)
+timestamp 42 size 664
+(99.7 %, 671 bytes)
+timestamp 43 size 671
+(99.7 %, 696 bytes)
+timestamp 43 size 696
+===< pass_clang :: param-to-local >===
+(99.7 %, 714 bytes)
+timestamp 43 size 714
+===< pass_clang :: remove-nested-function >===
+===< pass_clang :: union-to-struct >===
+===< pass_clang :: return-void >===
+(99.7 %, 691 bytes)
+timestamp 43 size 691
+===< pass_clang :: simple-inliner >===
+(99.6 %, 798 bytes)
+timestamp 43 size 798
+===< pass_clang :: reduce-pointer-level >===
+(99.6 %, 796 bytes)
+timestamp 44 size 796
+===< pass_clang :: lift-assignment-expr >===
+===< pass_clang :: copy-propagation >===
+(99.6 %, 791 bytes)
+timestamp 44 size 791
+===< pass_clang :: callexpr-to-value >===
+===< pass_clang :: replace-callexpr >===
+===< pass_clang :: simplify-callexpr >===
+===< pass_clang :: remove-unused-function >===
+===< pass_clang :: remove-unused-enum-member >===
+===< pass_clang :: remove-enum-member-value >===
+===< pass_clang_binsrch :: remove-unused-var >===
+(99.7 %, 692 bytes)
+timestamp 44 size 692
+===< pass_clang :: simplify-if >===
+(99.7 %, 720 bytes)
+timestamp 44 size 720
+(99.7 %, 754 bytes)
+timestamp 45 size 754
+===< pass_clang :: reduce-array-dim >===
+===< pass_clang :: reduce-array-size >===
+===< pass_clang :: move-function-body >===
+===< pass_clang :: simplify-comma-expr >===
+===< pass_clang :: simplify-dependent-typedef >===
+===< pass_clang :: replace-simple-typedef >===
+(99.7 %, 730 bytes)
+timestamp 45 size 730
+===< pass_clang :: replace-dependent-typedef >===
+===< pass_clang :: replace-one-level-typedef-type >===
+===< pass_clang :: remove-unused-field >===
+===< pass_clang :: instantiate-template-type-param-to-int >===
+===< pass_clang :: instantiate-template-param >===
+===< pass_clang :: template-arg-to-int >===
+===< pass_clang :: template-non-type-arg-to-int >===
+===< pass_clang :: reduce-class-template-param >===
+===< pass_clang :: remove-trivial-base-template >===
+===< pass_clang :: class-template-to-class >===
+===< pass_clang :: remove-base-class >===
+===< pass_clang :: replace-derived-class >===
+===< pass_clang :: remove-unresolved-base >===
+===< pass_clang :: remove-ctor-initializer >===
+===< pass_clang :: replace-class-with-base-template-spec >===
+===< pass_clang :: simplify-nested-class >===
+===< pass_clang :: remove-unused-outer-class >===
+===< pass_clang :: empty-struct-to-int >===
+===< pass_clang :: remove-pointer >===
+===< pass_clang :: reduce-pointer-pairs >===
+===< pass_clang :: remove-array >===
+===< pass_clang :: remove-addr-taken >===
+(99.7 %, 729 bytes)
+timestamp 45 size 729
+===< pass_clang :: simplify-struct >===
+===< pass_clang :: replace-undefined-function >===
+===< pass_clang :: replace-array-index-var >===
+===< pass_clang :: replace-array-access-with-index >===
+===< pass_clang :: replace-dependent-name >===
+===< pass_clang :: simplify-recursive-template-instantiation >===
+===< pass_clang :: vector-to-array >===
+===< pass_lines :: 0 >===
+(99.7 %, 732 bytes)
+timestamp 46 size 732
+===< pass_lines :: 1 >===
+(99.7 %, 744 bytes)
+timestamp 46 size 744
+(99.7 %, 707 bytes)
+timestamp 46 size 707
+===< pass_lines :: 2 >===
+(99.7 %, 725 bytes)
+timestamp 46 size 725
+(99.7 %, 661 bytes)
+timestamp 47 size 661
+(99.7 %, 618 bytes)
+timestamp 47 size 618
+(99.7 %, 590 bytes)
+timestamp 47 size 590
+===< pass_lines :: 3 >===
+(99.7 %, 605 bytes)
+timestamp 47 size 605
+===< pass_lines :: 4 >===
+(99.7 %, 620 bytes)
+timestamp 48 size 620
+===< pass_lines :: 6 >===
+(99.7 %, 635 bytes)
+timestamp 48 size 635
+===< pass_lines :: 8 >===
+(99.7 %, 650 bytes)
+timestamp 49 size 650
+===< pass_lines :: 10 >===
+(99.7 %, 665 bytes)
+timestamp 49 size 665
+===< pass_unifdef :: 0 >===
+===< pass_comments :: 0 >===
+===< pass_ifs :: 0 >===
+===< pass_special :: b >===
+===< pass_special :: c >===
+===< pass_indent :: regular >===
+(99.8 %, 362 bytes)
+timestamp 49 size 362
+===< pass_balanced :: parens-to-zero >===
+===< pass_clex :: rm-toks-1 >===
+(99.8 %, 353 bytes)
+timestamp 50 size 353
+(99.8 %, 348 bytes)
+timestamp 50 size 348
+(99.8 %, 346 bytes)
+timestamp 50 size 346
+(99.8 %, 339 bytes)
+timestamp 50 size 339
+(99.8 %, 332 bytes)
+timestamp 50 size 332
+(99.9 %, 328 bytes)
+timestamp 51 size 328
+(99.9 %, 319 bytes)
+timestamp 51 size 319
+(99.9 %, 314 bytes)
+timestamp 51 size 314
+(99.9 %, 310 bytes)
+timestamp 51 size 310
+(99.9 %, 305 bytes)
+timestamp 51 size 305
+(99.9 %, 301 bytes)
+timestamp 52 size 301
+===< pass_clex :: rm-toks-2 >===
+(99.9 %, 294 bytes)
+timestamp 52 size 294
+(99.9 %, 287 bytes)
+timestamp 52 size 287
+(99.9 %, 284 bytes)
+timestamp 52 size 284
+(99.9 %, 268 bytes)
+timestamp 53 size 268
+===< pass_clex :: rm-toks-3 >===
+(99.9 %, 247 bytes)
+timestamp 53 size 247
+===< pass_clex :: rm-toks-4 >===
+===< pass_clex :: rm-toks-5 >===
+(99.9 %, 229 bytes)
+timestamp 54 size 229
+===< pass_clex :: rm-toks-6 >===
+===< pass_clex :: rm-toks-7 >===
+===< pass_clex :: rm-toks-8 >===
+===< pass_clex :: rm-toks-9 >===
+===< pass_clex :: rm-toks-10 >===
+===< pass_clex :: rm-toks-11 >===
+===< pass_clex :: rm-toks-12 >===
+===< pass_clex :: rm-toks-13 >===
+===< pass_clex :: rm-toks-14 >===
+===< pass_clex :: rm-toks-15 >===
+===< pass_clex :: rm-toks-16 >===
+===< pass_clex :: rm-tok-pattern-4 >===
+===< pass_clang :: local-to-global >===
+===< pass_peep :: a >===
+===< pass_peep :: c >===
+===< pass_ints :: a >===
+===< pass_ints :: b >===
+===< pass_ints :: c >===
+===< pass_ints :: d >===
+===< pass_ints :: e >===
+===< pass_balanced :: parens-only >===
+(99.9 %, 227 bytes)
+timestamp 58 size 227
+(99.9 %, 225 bytes)
+timestamp 59 size 225
+===< pass_clex :: rename-toks >===
+(99.9 %, 221 bytes)
+timestamp 59 size 221
+(99.9 %, 194 bytes)
+timestamp 59 size 194
+(99.9 %, 158 bytes)
+timestamp 59 size 158
+(99.9 %, 148 bytes)
+timestamp 59 size 148
+(99.9 %, 143 bytes)
+timestamp 59 size 143
+(99.9 %, 126 bytes)
+timestamp 60 size 126
+(99.9 %, 115 bytes)
+timestamp 60 size 115
+===< pass_clex :: delete-string >===
+===< pass_clex :: define >===
+Termination check: size was 220625; now 115
+===< pass_include_includes :: 0 >===
+===< pass_ternary :: b >===
+===< pass_ternary :: c >===
+===< pass_balanced :: curly >===
+===< pass_balanced :: curly2 >===
+===< pass_balanced :: curly3 >===
+===< pass_balanced :: parens >===
+===< pass_balanced :: angles >===
+===< pass_balanced :: square >===
+===< pass_balanced :: curly-inside >===
+===< pass_balanced :: parens-inside >===
+===< pass_balanced :: angles-inside >===
+===< pass_balanced :: square-inside >===
+===< pass_balanced :: curly-only >===
+(99.9 %, 113 bytes)
+timestamp 60 size 113
+===< pass_balanced :: angles-only >===
+===< pass_balanced :: square-only >===
+===< pass_clang :: remove-namespace >===
+===< pass_clang :: aggregate-to-scalar >===
+===< pass_clang :: param-to-global >===
+===< pass_clang :: param-to-local >===
+===< pass_clang :: remove-nested-function >===
+===< pass_clang :: union-to-struct >===
+===< pass_clang :: return-void >===
+(99.9 %, 118 bytes)
+timestamp 60 size 118
+(99.9 %, 123 bytes)
+timestamp 61 size 123
+===< pass_clang :: simple-inliner >===
+===< pass_clang :: reduce-pointer-level >===
+===< pass_clang :: lift-assignment-expr >===
+===< pass_clang :: copy-propagation >===
+===< pass_clang :: callexpr-to-value >===
+===< pass_clang :: replace-callexpr >===
+===< pass_clang :: simplify-callexpr >===
+===< pass_clang :: remove-unused-function >===
+===< pass_clang :: remove-unused-enum-member >===
+===< pass_clang :: remove-enum-member-value >===
+===< pass_clang_binsrch :: remove-unused-var >===
+===< pass_clang :: simplify-if >===
+===< pass_clang :: reduce-array-dim >===
+===< pass_clang :: reduce-array-size >===
+===< pass_clang :: move-function-body >===
+===< pass_clang :: simplify-comma-expr >===
+===< pass_clang :: simplify-dependent-typedef >===
+===< pass_clang :: replace-simple-typedef >===
+===< pass_clang :: replace-dependent-typedef >===
+===< pass_clang :: replace-one-level-typedef-type >===
+===< pass_clang :: remove-unused-field >===
+===< pass_clang :: instantiate-template-type-param-to-int >===
+===< pass_clang :: instantiate-template-param >===
+===< pass_clang :: template-arg-to-int >===
+===< pass_clang :: template-non-type-arg-to-int >===
+===< pass_clang :: reduce-class-template-param >===
+===< pass_clang :: remove-trivial-base-template >===
+===< pass_clang :: class-template-to-class >===
+===< pass_clang :: remove-base-class >===
+===< pass_clang :: replace-derived-class >===
+===< pass_clang :: remove-unresolved-base >===
+===< pass_clang :: remove-ctor-initializer >===
+===< pass_clang :: replace-class-with-base-template-spec >===
+===< pass_clang :: simplify-nested-class >===
+===< pass_clang :: remove-unused-outer-class >===
+===< pass_clang :: empty-struct-to-int >===
+===< pass_clang :: remove-pointer >===
+===< pass_clang :: reduce-pointer-pairs >===
+===< pass_clang :: remove-array >===
+===< pass_clang :: remove-addr-taken >===
+===< pass_clang :: simplify-struct >===
+===< pass_clang :: replace-undefined-function >===
+===< pass_clang :: replace-array-index-var >===
+===< pass_clang :: replace-array-access-with-index >===
+===< pass_clang :: replace-dependent-name >===
+===< pass_clang :: simplify-recursive-template-instantiation >===
+===< pass_clang :: vector-to-array >===
+===< pass_lines :: 0 >===
+(99.9 %, 125 bytes)
+timestamp 62 size 125
+===< pass_lines :: 1 >===
+(99.9 %, 135 bytes)
+timestamp 62 size 135
+===< pass_lines :: 2 >===
+(99.9 %, 145 bytes)
+timestamp 63 size 145
+===< pass_lines :: 3 >===
+(99.9 %, 155 bytes)
+timestamp 63 size 155
+===< pass_lines :: 4 >===
+(99.9 %, 165 bytes)
+timestamp 63 size 165
+===< pass_lines :: 6 >===
+(99.9 %, 175 bytes)
+timestamp 64 size 175
+===< pass_lines :: 8 >===
+(99.9 %, 185 bytes)
+timestamp 64 size 185
+===< pass_lines :: 10 >===
+(99.9 %, 195 bytes)
+timestamp 64 size 195
+===< pass_unifdef :: 0 >===
+===< pass_comments :: 0 >===
+===< pass_ifs :: 0 >===
+===< pass_special :: b >===
+===< pass_special :: c >===
+===< pass_indent :: regular >===
+(100.0 %, 109 bytes)
+timestamp 65 size 109
+===< pass_balanced :: parens-to-zero >===
+===< pass_clex :: rm-toks-1 >===
+(100.0 %, 104 bytes)
+timestamp 65 size 104
+(100.0 %, 99 bytes)
+timestamp 65 size 99
+===< pass_clex :: rm-toks-2 >===
+===< pass_clex :: rm-toks-3 >===
+===< pass_clex :: rm-toks-4 >===
+===< pass_clex :: rm-toks-5 >===
+===< pass_clex :: rm-toks-6 >===
+===< pass_clex :: rm-toks-7 >===
+===< pass_clex :: rm-toks-8 >===
+===< pass_clex :: rm-toks-9 >===
+===< pass_clex :: rm-toks-10 >===
+===< pass_clex :: rm-toks-11 >===
+===< pass_clex :: rm-toks-12 >===
+===< pass_clex :: rm-toks-13 >===
+===< pass_clex :: rm-toks-14 >===
+===< pass_clex :: rm-toks-15 >===
+===< pass_clex :: rm-toks-16 >===
+===< pass_clex :: rm-tok-pattern-4 >===
+===< pass_clang :: local-to-global >===
+===< pass_peep :: a >===
+===< pass_peep :: c >===
+===< pass_ints :: a >===
+===< pass_ints :: b >===
+===< pass_ints :: c >===
+===< pass_ints :: d >===
+===< pass_ints :: e >===
+===< pass_balanced :: parens-only >===
+===< pass_clex :: rename-toks >===
+===< pass_clex :: delete-string >===
+===< pass_clex :: define >===
+Termination check: size was 115; now 99
+===< pass_include_includes :: 0 >===
+===< pass_ternary :: b >===
+===< pass_ternary :: c >===
+===< pass_balanced :: curly >===
+===< pass_balanced :: curly2 >===
+===< pass_balanced :: curly3 >===
+===< pass_balanced :: parens >===
+===< pass_balanced :: angles >===
+===< pass_balanced :: square >===
+===< pass_balanced :: curly-inside >===
+===< pass_balanced :: parens-inside >===
+===< pass_balanced :: angles-inside >===
+===< pass_balanced :: square-inside >===
+===< pass_balanced :: curly-only >===
+===< pass_balanced :: angles-only >===
+===< pass_balanced :: square-only >===
+===< pass_clang :: remove-namespace >===
+===< pass_clang :: aggregate-to-scalar >===
+===< pass_clang :: param-to-global >===
+===< pass_clang :: param-to-local >===
+===< pass_clang :: remove-nested-function >===
+===< pass_clang :: union-to-struct >===
+===< pass_clang :: return-void >===
+(100.0 %, 104 bytes)
+timestamp 71 size 104
+(100.0 %, 109 bytes)
+timestamp 71 size 109
+===< pass_clang :: simple-inliner >===
+===< pass_clang :: reduce-pointer-level >===
+===< pass_clang :: lift-assignment-expr >===
+===< pass_clang :: copy-propagation >===
+===< pass_clang :: callexpr-to-value >===
+===< pass_clang :: replace-callexpr >===
+===< pass_clang :: simplify-callexpr >===
+===< pass_clang :: remove-unused-function >===
+===< pass_clang :: remove-unused-enum-member >===
+===< pass_clang :: remove-enum-member-value >===
+===< pass_clang_binsrch :: remove-unused-var >===
+===< pass_clang :: simplify-if >===
+===< pass_clang :: reduce-array-dim >===
+===< pass_clang :: reduce-array-size >===
+===< pass_clang :: move-function-body >===
+===< pass_clang :: simplify-comma-expr >===
+===< pass_clang :: simplify-dependent-typedef >===
+===< pass_clang :: replace-simple-typedef >===
+===< pass_clang :: replace-dependent-typedef >===
+===< pass_clang :: replace-one-level-typedef-type >===
+===< pass_clang :: remove-unused-field >===
+===< pass_clang :: instantiate-template-type-param-to-int >===
+===< pass_clang :: instantiate-template-param >===
+===< pass_clang :: template-arg-to-int >===
+===< pass_clang :: template-non-type-arg-to-int >===
+===< pass_clang :: reduce-class-template-param >===
+===< pass_clang :: remove-trivial-base-template >===
+===< pass_clang :: class-template-to-class >===
+===< pass_clang :: remove-base-class >===
+===< pass_clang :: replace-derived-class >===
+===< pass_clang :: remove-unresolved-base >===
+===< pass_clang :: remove-ctor-initializer >===
+===< pass_clang :: replace-class-with-base-template-spec >===
+===< pass_clang :: simplify-nested-class >===
+===< pass_clang :: remove-unused-outer-class >===
+===< pass_clang :: empty-struct-to-int >===
+===< pass_clang :: remove-pointer >===
+===< pass_clang :: reduce-pointer-pairs >===
+===< pass_clang :: remove-array >===
+===< pass_clang :: remove-addr-taken >===
+===< pass_clang :: simplify-struct >===
+===< pass_clang :: replace-undefined-function >===
+===< pass_clang :: replace-array-index-var >===
+===< pass_clang :: replace-array-access-with-index >===
+===< pass_clang :: replace-dependent-name >===
+===< pass_clang :: simplify-recursive-template-instantiation >===
+===< pass_clang :: vector-to-array >===
+===< pass_lines :: 0 >===
+(99.9 %, 112 bytes)
+timestamp 72 size 112
+===< pass_lines :: 1 >===
+(99.9 %, 122 bytes)
+timestamp 73 size 122
+===< pass_lines :: 2 >===
+(99.9 %, 132 bytes)
+timestamp 73 size 132
+===< pass_lines :: 3 >===
+(99.9 %, 142 bytes)
+timestamp 73 size 142
+===< pass_lines :: 4 >===
+(99.9 %, 152 bytes)
+timestamp 74 size 152
+===< pass_lines :: 6 >===
+(99.9 %, 162 bytes)
+timestamp 74 size 162
+===< pass_lines :: 8 >===
+(99.9 %, 172 bytes)
+timestamp 74 size 172
+===< pass_lines :: 10 >===
+(99.9 %, 182 bytes)
+timestamp 75 size 182
+===< pass_unifdef :: 0 >===
+===< pass_comments :: 0 >===
+===< pass_ifs :: 0 >===
+===< pass_special :: b >===
+===< pass_special :: c >===
+===< pass_indent :: regular >===
+(100.0 %, 109 bytes)
+timestamp 75 size 109
+===< pass_balanced :: parens-to-zero >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-1 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-2 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-3 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-4 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-5 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-6 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-7 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-8 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-9 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-10 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-11 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-12 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-13 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-14 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-15 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-toks-16 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rm-tok-pattern-4 >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clang :: local-to-global >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_peep :: a >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_peep :: c >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_ints :: a >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_ints :: b >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_ints :: c >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_ints :: d >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_ints :: e >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_balanced :: parens-only >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: rename-toks >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: delete-string >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+===< pass_clex :: define >===
+(cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i)
+Termination check: size was 99; now 99
+===< pass_clang :: rename-fun >===
+(100.0 %, 107 bytes)
+timestamp 75 size 107
+===< pass_clang :: rename-param >===
+(100.0 %, 109 bytes)
+timestamp 75 size 109
+===< pass_clang :: rename-var >===
+===< pass_clang :: rename-class >===
+===< pass_clang :: rename-cxx-method >===
+===< pass_clang :: combine-global-var >===
+===< pass_clang :: combine-local-var >===
+===< pass_clang :: simplify-struct-union-decl >===
+===< pass_clang :: move-global-var >===
+===< pass_clang :: unify-function-decl >===
+===< pass_lines :: 0 >===
+(99.9 %, 112 bytes)
+timestamp 76 size 112
+===< pass_clex :: rename-toks >===
+(100.0 %, 108 bytes)
+timestamp 76 size 108
+(100.0 %, 106 bytes)
+timestamp 76 size 106
+(100.0 %, 104 bytes)
+timestamp 76 size 104
+(100.0 %, 102 bytes)
+timestamp 76 size 102
+===< pass_clex :: delete-string >===
+===< pass_indent :: final >===
+(100.0 %, 99 bytes)
+timestamp 77 size 99
+===================== done ====================
+
+pass statistics:
+  method pass_clang :: param-to-local worked 1 times and failed 3 times
+  method pass_clang :: remove-addr-taken worked 1 times and failed 0 times
+  method pass_clang :: replace-simple-typedef worked 1 times and failed 3 times
+  method pass_clex :: rm-toks-3 worked 1 times and failed 103 times
+  method pass_clex :: rm-toks-5 worked 1 times and failed 98 times
+  method pass_clang :: simple-inliner worked 1 times and failed 0 times
+  method pass_line_markers :: 0 worked 1 times and failed 0 times
+  method pass_balanced :: curly2 worked 1 times and failed 15 times
+  method pass_clang_binsrch :: remove-unused-function worked 1 times and failed 1 times
+  method pass_clang :: rename-fun worked 1 times and failed 0 times
+  method pass_balanced :: curly-only worked 1 times and failed 10 times
+  method pass_clang :: copy-propagation worked 1 times and failed 0 times
+  method pass_clang :: reduce-pointer-level worked 1 times and failed 0 times
+  method pass_clang :: rename-param worked 1 times and failed 0 times
+  method pass_balanced :: square worked 1 times and failed 3 times
+  method pass_blank :: 0 worked 1 times and failed 0 times
+  method pass_indent :: final worked 1 times and failed 0 times
+  method pass_clang_binsrch :: remove-unused-var worked 1 times and failed 2 times
+  method pass_balanced :: parens-to-zero worked 1 times and failed 26 times
+  method pass_balanced :: parens-only worked 2 times and failed 8 times
+  method pass_balanced :: parens-inside worked 2 times and failed 18 times
+  method pass_clang :: simplify-if worked 2 times and failed 0 times
+  method pass_clang_binsrch :: replace-function-def-with-decl worked 2 times and failed 3 times
+  method pass_clang :: param-to-global worked 3 times and failed 4 times
+  method pass_indent :: regular worked 3 times and failed 0 times
+  method pass_clex :: rm-toks-2 worked 4 times and failed 106 times
+  method pass_lines :: 8 worked 4 times and failed 122 times
+  method pass_lines :: 6 worked 4 times and failed 122 times
+  method pass_lines :: 10 worked 4 times and failed 122 times
+  method pass_lines :: 3 worked 4 times and failed 122 times
+  method pass_lines :: 4 worked 4 times and failed 122 times
+  method pass_clang :: return-void worked 5 times and failed 2 times
+  method pass_lines :: 2 worked 8 times and failed 128 times
+  method pass_clex :: rename-toks worked 11 times and failed 0 times
+  method pass_lines :: 1 worked 11 times and failed 114 times
+  method pass_clex :: rm-toks-1 worked 13 times and failed 114 times
+  method pass_lines :: 0 worked 126 times and failed 300 times
+
+          ******** /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i ********
+
+typedef struct {
+  int a[8 * sizeof 0]
+} b;
+c(b *f) { int e = f; }
+g() {
+  b d;
+  c(&d);
+  h(d);
+}
+
