@@ -1,684 +1,683 @@
-TMPDIR=/dev/shm/tmp creduce --n 16 reduce-ice.sh pr94526.i --timing
-2020-04-12 12:00:52,868 INFO ===< 20975 >===
-2020-04-12 12:00:52,869 INFO running 16 interestingness tests in parallel
-2020-04-12 12:00:52,869 INFO INITIAL PASSES
-2020-04-12 12:00:52,869 INFO ===< IncludesPass >===
-2020-04-12 12:00:52,892 INFO ===< UnIfDefPass >===
-2020-04-12 12:00:52,901 INFO ===< CommentsPass >===
-2020-04-12 12:00:52,941 INFO ===< IfPass >===
-2020-04-12 12:00:52,949 INFO ===< LineMarkersPass >===
-2020-04-12 12:00:53,233 INFO (20.1%, 176281 bytes)
-2020-04-12 12:00:53,234 INFO ===< BlankPass >===
-2020-04-12 12:00:53,458 INFO (21.8%, 172430 bytes)
-2020-04-12 12:00:53,473 INFO ===< ClangBinarySearchPass::replace-function-def-with-decl >===
-2020-04-12 12:00:53,846 INFO (22.7%, 170538 bytes)
-2020-04-12 12:00:54,204 INFO (23.3%, 169133 bytes)
-2020-04-12 12:00:54,521 INFO (23.5%, 168746 bytes)
-2020-04-12 12:00:54,727 INFO ===< ClangBinarySearchPass::remove-unused-function >===
-2020-04-12 12:00:55,014 INFO (55.1%, 99032 bytes)
-2020-04-12 12:00:55,479 INFO (55.2%, 98912 bytes)
-2020-04-12 12:00:55,479 INFO ===< LinesPass::0 >===
-2020-04-12 12:00:55,740 INFO (61.7%, 84490 bytes)
-2020-04-12 12:00:55,978 INFO (64.2%, 78902 bytes)
-2020-04-12 12:00:56,190 INFO (64.9%, 77364 bytes)
-2020-04-12 12:00:56,397 INFO (66.1%, 74806 bytes)
-2020-04-12 12:00:56,617 INFO (67.2%, 72418 bytes)
-2020-04-12 12:00:56,834 INFO (68.3%, 70039 bytes)
-2020-04-12 12:00:57,071 INFO (69.2%, 67845 bytes)
-2020-04-12 12:00:57,249 INFO (70.4%, 65198 bytes)
-2020-04-12 12:00:57,425 INFO (71.4%, 63035 bytes)
-2020-04-12 12:00:57,601 INFO (73.1%, 59419 bytes)
-2020-04-12 12:00:57,812 INFO (73.6%, 58230 bytes)
-2020-04-12 12:00:57,987 INFO (74.0%, 57269 bytes)
-2020-04-12 12:00:58,150 INFO (74.7%, 55865 bytes)
-2020-04-12 12:00:58,334 INFO (75.3%, 54584 bytes)
-2020-04-12 12:00:58,512 INFO (75.8%, 53304 bytes)
-2020-04-12 12:00:58,680 INFO (76.4%, 51994 bytes)
-2020-04-12 12:00:58,884 INFO (77.0%, 50768 bytes)
-2020-04-12 12:00:59,099 INFO (77.1%, 50463 bytes)
-2020-04-12 12:00:59,261 INFO (81.1%, 41791 bytes)
-2020-04-12 12:00:59,419 INFO (81.5%, 40845 bytes)
-2020-04-12 12:00:59,578 INFO (81.8%, 40143 bytes)
-2020-04-12 12:00:59,815 INFO (82.3%, 38964 bytes)
-2020-04-12 12:01:00,036 INFO (82.6%, 38352 bytes)
-2020-04-12 12:01:00,197 INFO (82.9%, 37754 bytes)
-2020-04-12 12:01:00,379 INFO (83.2%, 37063 bytes)
-2020-04-12 12:01:00,595 INFO (83.6%, 36264 bytes)
-2020-04-12 12:01:00,815 INFO (83.9%, 35448 bytes)
-2020-04-12 12:01:01,004 INFO (84.4%, 34437 bytes)
-2020-04-12 12:01:01,230 INFO (84.5%, 34183 bytes)
-2020-04-12 12:01:01,397 INFO (84.6%, 33937 bytes)
-2020-04-12 12:01:01,571 INFO (85.0%, 33185 bytes)
-2020-04-12 12:01:01,733 INFO (85.2%, 32573 bytes)
-2020-04-12 12:01:01,906 INFO (85.5%, 31968 bytes)
-2020-04-12 12:01:02,086 INFO (85.6%, 31688 bytes)
-2020-04-12 12:01:02,269 INFO (85.8%, 31428 bytes)
-2020-04-12 12:01:02,516 INFO (85.8%, 31270 bytes)
-2020-04-12 12:01:02,696 INFO (85.9%, 31098 bytes)
-2020-04-12 12:01:02,864 INFO (86.7%, 29349 bytes)
-2020-04-12 12:01:03,036 INFO (86.9%, 29010 bytes)
-2020-04-12 12:01:03,192 INFO (86.9%, 28880 bytes)
-2020-04-12 12:01:03,400 INFO (87.0%, 28753 bytes)
-2020-04-12 12:01:03,574 INFO (87.0%, 28597 bytes)
-2020-04-12 12:01:03,785 INFO (87.1%, 28467 bytes)
-2020-04-12 12:01:03,964 INFO (87.2%, 28229 bytes)
-2020-04-12 12:01:04,203 INFO (87.3%, 27984 bytes)
-2020-04-12 12:01:04,397 INFO (87.6%, 27397 bytes)
-2020-04-12 12:01:04,560 INFO (87.7%, 27044 bytes)
-2020-04-12 12:01:04,752 INFO (87.8%, 26943 bytes)
-2020-04-12 12:01:04,926 INFO (88.0%, 26444 bytes)
-2020-04-12 12:01:05,114 INFO (88.3%, 25900 bytes)
-2020-04-12 12:01:05,292 INFO (88.3%, 25718 bytes)
-2020-04-12 12:01:05,489 INFO (88.5%, 25411 bytes)
-2020-04-12 12:01:05,650 INFO (88.7%, 24823 bytes)
-2020-04-12 12:01:05,836 INFO (89.0%, 24216 bytes)
-2020-04-12 12:01:06,021 INFO (89.2%, 23720 bytes)
-2020-04-12 12:01:06,204 INFO (89.4%, 23364 bytes)
-2020-04-12 12:01:06,376 INFO (89.9%, 22197 bytes)
-2020-04-12 12:01:06,543 INFO (90.1%, 21879 bytes)
-2020-04-12 12:01:06,714 INFO (90.2%, 21587 bytes)
-2020-04-12 12:01:06,891 INFO (90.3%, 21325 bytes)
-2020-04-12 12:01:07,050 INFO (90.5%, 20972 bytes)
-2020-04-12 12:01:07,207 INFO (90.8%, 20290 bytes)
-2020-04-12 12:01:07,377 INFO (90.8%, 20223 bytes)
-2020-04-12 12:01:07,543 INFO (90.9%, 20153 bytes)
-2020-04-12 12:01:07,749 INFO (90.9%, 20081 bytes)
-2020-04-12 12:01:07,943 INFO (90.9%, 20007 bytes)
-2020-04-12 12:01:08,143 INFO (91.0%, 19933 bytes)
-2020-04-12 12:01:08,300 INFO (91.0%, 19848 bytes)
-2020-04-12 12:01:08,459 INFO (91.0%, 19753 bytes)
-2020-04-12 12:01:08,621 INFO (91.1%, 19656 bytes)
-2020-04-12 12:01:08,842 INFO (91.1%, 19568 bytes)
-2020-04-12 12:01:09,058 INFO (91.2%, 19492 bytes)
-2020-04-12 12:01:09,272 INFO (91.2%, 19406 bytes)
-2020-04-12 12:01:09,431 INFO (91.2%, 19315 bytes)
-2020-04-12 12:01:09,592 INFO (91.3%, 19210 bytes)
-2020-04-12 12:01:09,788 INFO (91.3%, 19105 bytes)
-2020-04-12 12:01:10,003 INFO (91.4%, 19028 bytes)
-2020-04-12 12:01:10,216 INFO (91.4%, 18973 bytes)
-2020-04-12 12:01:10,425 INFO (91.4%, 18885 bytes)
-2020-04-12 12:01:10,635 INFO (91.5%, 18831 bytes)
-2020-04-12 12:01:10,802 INFO (91.5%, 18775 bytes)
-2020-04-12 12:01:11,020 INFO (91.5%, 18717 bytes)
-2020-04-12 12:01:11,239 INFO (91.5%, 18661 bytes)
-2020-04-12 12:01:11,399 INFO (91.6%, 18599 bytes)
-2020-04-12 12:01:11,605 INFO (91.7%, 18386 bytes)
-2020-04-12 12:01:11,800 INFO (91.7%, 18292 bytes)
-2020-04-12 12:01:11,998 INFO (91.8%, 18121 bytes)
-2020-04-12 12:01:12,167 INFO (91.9%, 17853 bytes)
-2020-04-12 12:01:12,383 INFO (92.3%, 16989 bytes)
-2020-04-12 12:01:12,568 INFO (92.3%, 16921 bytes)
-2020-04-12 12:01:12,772 INFO (92.4%, 16839 bytes)
-2020-04-12 12:01:12,993 INFO (92.4%, 16765 bytes)
-2020-04-12 12:01:13,156 INFO (92.5%, 16636 bytes)
-2020-04-12 12:01:13,363 INFO (92.5%, 16560 bytes)
-2020-04-12 12:01:13,579 INFO (92.6%, 16348 bytes)
-2020-04-12 12:01:13,791 INFO (92.7%, 16093 bytes)
-2020-04-12 12:01:14,009 INFO (92.8%, 15832 bytes)
-2020-04-12 12:01:14,226 INFO (92.9%, 15595 bytes)
-2020-04-12 12:01:14,400 INFO (93.0%, 15352 bytes)
-2020-04-12 12:01:14,591 INFO (93.2%, 15035 bytes)
-2020-04-12 12:01:14,755 INFO (93.3%, 14813 bytes)
-2020-04-12 12:01:14,923 INFO (93.4%, 14505 bytes)
-2020-04-12 12:01:15,072 INFO (93.5%, 14287 bytes)
-2020-04-12 12:01:15,272 INFO (93.6%, 14174 bytes)
-2020-04-12 12:01:15,462 INFO (93.7%, 13864 bytes)
-2020-04-12 12:01:15,617 INFO (93.8%, 13751 bytes)
-2020-04-12 12:01:15,768 INFO (93.8%, 13645 bytes)
-2020-04-12 12:01:15,947 INFO (93.9%, 13557 bytes)
-2020-04-12 12:01:16,098 INFO (93.9%, 13349 bytes)
-2020-04-12 12:01:16,269 INFO (94.1%, 13107 bytes)
-2020-04-12 12:01:16,420 INFO (94.2%, 12853 bytes)
-2020-04-12 12:01:16,586 INFO (94.5%, 12169 bytes)
-2020-04-12 12:01:16,742 INFO (94.6%, 12001 bytes)
-2020-04-12 12:01:16,896 INFO (94.6%, 11919 bytes)
-2020-04-12 12:01:17,055 INFO (94.6%, 11833 bytes)
-2020-04-12 12:01:17,206 INFO (94.7%, 11753 bytes)
-2020-04-12 12:01:17,389 INFO (94.7%, 11628 bytes)
-2020-04-12 12:01:17,563 INFO (94.9%, 11145 bytes)
-2020-04-12 12:01:17,725 INFO (95.0%, 11071 bytes)
-2020-04-12 12:01:17,880 INFO (95.0%, 11004 bytes)
-2020-04-12 12:01:18,036 INFO (95.2%, 10606 bytes)
-2020-04-12 12:01:18,221 INFO (95.3%, 10433 bytes)
-2020-04-12 12:01:18,373 INFO (95.3%, 10348 bytes)
-2020-04-12 12:01:18,531 INFO (95.3%, 10270 bytes)
-2020-04-12 12:01:18,680 INFO (95.5%, 9899 bytes)
-2020-04-12 12:01:18,828 INFO (95.5%, 9819 bytes)
-2020-04-12 12:01:18,980 INFO (95.6%, 9774 bytes)
-2020-04-12 12:01:19,127 INFO (95.6%, 9676 bytes)
-2020-04-12 12:01:19,156 INFO ===< LinesPass::1 >===
-2020-04-12 12:01:19,337 INFO (96.3%, 8104 bytes)
-2020-04-12 12:01:19,536 INFO (96.6%, 7481 bytes)
-2020-04-12 12:01:19,712 INFO (96.7%, 7177 bytes)
-2020-04-12 12:01:19,921 INFO (96.8%, 6988 bytes)
-2020-04-12 12:01:20,082 INFO (96.9%, 6772 bytes)
-2020-04-12 12:01:20,235 INFO (97.0%, 6571 bytes)
-2020-04-12 12:01:20,384 INFO (97.1%, 6387 bytes)
-2020-04-12 12:01:20,555 INFO (97.6%, 5214 bytes)
-2020-04-12 12:01:20,727 INFO (97.7%, 5033 bytes)
-2020-04-12 12:01:20,886 INFO (97.8%, 4804 bytes)
-2020-04-12 12:01:21,070 INFO (97.9%, 4635 bytes)
-2020-04-12 12:01:21,235 INFO (97.9%, 4528 bytes)
-2020-04-12 12:01:21,413 INFO (98.0%, 4473 bytes)
-2020-04-12 12:01:21,574 INFO (98.0%, 4420 bytes)
-2020-04-12 12:01:21,732 INFO (98.0%, 4330 bytes)
-2020-04-12 12:01:21,881 INFO (98.2%, 4004 bytes)
-2020-04-12 12:01:22,029 INFO (98.4%, 3605 bytes)
-2020-04-12 12:01:22,184 INFO (98.4%, 3547 bytes)
-2020-04-12 12:01:22,383 INFO (98.4%, 3496 bytes)
-2020-04-12 12:01:22,534 INFO (98.5%, 3417 bytes)
-2020-04-12 12:01:22,691 INFO (98.5%, 3346 bytes)
-2020-04-12 12:01:22,841 INFO (98.5%, 3243 bytes)
-2020-04-12 12:01:22,858 INFO ===< LinesPass::2 >===
-2020-04-12 12:01:23,042 INFO (98.7%, 2954 bytes)
-2020-04-12 12:01:23,228 INFO (98.8%, 2724 bytes)
-2020-04-12 12:01:23,405 INFO (98.9%, 2476 bytes)
-2020-04-12 12:01:23,548 INFO (98.9%, 2356 bytes)
-2020-04-12 12:01:23,707 INFO (99.0%, 2299 bytes)
-2020-04-12 12:01:23,910 INFO (99.0%, 2224 bytes)
-2020-04-12 12:01:24,070 INFO (99.0%, 2149 bytes)
-2020-04-12 12:01:24,216 INFO (99.1%, 2056 bytes)
-2020-04-12 12:01:24,401 INFO (99.1%, 1964 bytes)
-2020-04-12 12:01:24,619 INFO (99.1%, 1920 bytes)
-2020-04-12 12:01:24,779 INFO (99.2%, 1836 bytes)
-2020-04-12 12:01:24,932 INFO (99.2%, 1802 bytes)
-2020-04-12 12:01:25,088 INFO (99.2%, 1735 bytes)
-2020-04-12 12:01:25,231 INFO (99.2%, 1675 bytes)
-2020-04-12 12:01:25,375 INFO (99.3%, 1479 bytes)
-2020-04-12 12:01:25,527 INFO (99.4%, 1431 bytes)
-2020-04-12 12:01:25,551 INFO ===< LinesPass::3 >===
-2020-04-12 12:01:25,715 INFO (99.4%, 1295 bytes)
-2020-04-12 12:01:25,888 INFO (99.5%, 1145 bytes)
-2020-04-12 12:01:26,030 INFO ===< LinesPass::4 >===
-2020-04-12 12:01:26,195 INFO (99.5%, 1098 bytes)
-2020-04-12 12:01:26,339 INFO ===< LinesPass::6 >===
-2020-04-12 12:01:26,509 INFO ===< LinesPass::8 >===
-2020-04-12 12:01:26,686 INFO ===< LinesPass::10 >===
-2020-04-12 12:01:26,856 INFO ===< ClangBinarySearchPass::replace-function-def-with-decl >===
-2020-04-12 12:01:26,924 INFO ===< ClangBinarySearchPass::remove-unused-function >===
-2020-04-12 12:01:26,975 INFO ===< ClangPass::remove-unused-function >===
-2020-04-12 12:01:27,011 INFO ===< BalancedPass::curly >===
-2020-04-12 12:01:27,158 INFO (99.5%, 1029 bytes)
-2020-04-12 12:01:27,175 INFO ===< BalancedPass::curly2 >===
-2020-04-12 12:01:27,317 INFO (99.6%, 853 bytes)
-2020-04-12 12:01:27,333 INFO ===< BalancedPass::curly3 >===
-2020-04-12 12:01:27,334 INFO ===< BalancedPass::parens-to-zero >===
-2020-04-12 12:01:27,478 INFO (99.6%, 835 bytes)
-2020-04-12 12:01:27,510 INFO ===< ClangPass::callexpr-to-value >===
-2020-04-12 12:01:27,582 INFO ===< ClangPass::replace-callexpr >===
-2020-04-12 12:01:27,618 INFO ===< ClangPass::simplify-callexpr >===
-2020-04-12 12:01:27,691 INFO ===< ClangPass::remove-unused-enum-member >===
-2020-04-12 12:01:27,710 INFO ===< ClangPass::remove-enum-member-value >===
-2020-04-12 12:01:27,727 INFO ===< ClangBinarySearchPass::remove-unused-var >===
-2020-04-12 12:01:27,920 INFO (99.6%, 827 bytes)
-2020-04-12 12:01:27,921 INFO ===< SpecialPass::a >===
-2020-04-12 12:01:27,922 INFO ===< SpecialPass::b >===
-2020-04-12 12:01:27,922 INFO ===< SpecialPass::c >===
-2020-04-12 12:01:27,923 INFO MAIN PASSES
-2020-04-12 12:01:27,923 INFO ===< IncludeIncludesPass >===
-2020-04-12 12:01:27,924 INFO ===< TernaryPass::b >===
-2020-04-12 12:01:27,930 INFO ===< TernaryPass::c >===
-2020-04-12 12:01:27,934 INFO ===< BalancedPass::curly >===
-2020-04-12 12:01:27,950 INFO ===< BalancedPass::curly2 >===
-2020-04-12 12:01:27,972 INFO ===< BalancedPass::curly3 >===
-2020-04-12 12:01:27,973 INFO ===< BalancedPass::parens >===
-2020-04-12 12:01:28,023 INFO ===< BalancedPass::angles >===
-2020-04-12 12:01:28,023 INFO ===< BalancedPass::square >===
-2020-04-12 12:01:28,162 INFO (99.6%, 824 bytes)
-2020-04-12 12:01:28,162 INFO ===< BalancedPass::curly-inside >===
-2020-04-12 12:01:28,310 INFO ===< BalancedPass::parens-inside >===
-2020-04-12 12:01:28,459 INFO (99.6%, 818 bytes)
-2020-04-12 12:01:28,610 INFO (99.6%, 814 bytes)
-2020-04-12 12:01:28,624 INFO ===< BalancedPass::angles-inside >===
-2020-04-12 12:01:28,624 INFO ===< BalancedPass::square-inside >===
-2020-04-12 12:01:28,636 INFO ===< BalancedPass::curly-only >===
-2020-04-12 12:01:28,653 INFO ===< BalancedPass::angles-only >===
-2020-04-12 12:01:28,654 INFO ===< BalancedPass::square-only >===
-2020-04-12 12:01:28,663 INFO ===< ClangPass::remove-namespace >===
-2020-04-12 12:01:28,678 INFO ===< ClangPass::aggregate-to-scalar >===
-2020-04-12 12:01:28,695 INFO ===< ClangPass::param-to-global >===
-2020-04-12 12:01:28,874 INFO (99.6%, 821 bytes)
-2020-04-12 12:01:29,026 INFO (99.6%, 828 bytes)
-2020-04-12 12:01:29,201 INFO (99.6%, 853 bytes)
-2020-04-12 12:01:29,220 INFO ===< ClangPass::param-to-local >===
-2020-04-12 12:01:29,394 INFO (99.6%, 868 bytes)
-2020-04-12 12:01:29,411 INFO ===< ClangPass::remove-nested-function >===
-2020-04-12 12:01:29,428 INFO ===< ClangPass::union-to-struct >===
-2020-04-12 12:01:29,442 INFO ===< ClangPass::return-void >===
-2020-04-12 12:01:29,632 INFO (99.6%, 845 bytes)
-2020-04-12 12:01:29,649 INFO ===< ClangPass::simple-inliner >===
-2020-04-12 12:01:29,807 INFO (99.6%, 925 bytes)
-2020-04-12 12:01:29,824 INFO ===< ClangPass::reduce-pointer-level >===
-2020-04-12 12:01:29,975 INFO (99.6%, 923 bytes)
-2020-04-12 12:01:29,994 INFO ===< ClangPass::lift-assignment-expr >===
-2020-04-12 12:01:30,012 INFO ===< ClangPass::copy-propagation >===
-2020-04-12 12:01:30,165 INFO (99.6%, 918 bytes)
-2020-04-12 12:01:30,183 INFO ===< ClangPass::callexpr-to-value >===
-2020-04-12 12:01:30,242 INFO ===< ClangPass::replace-callexpr >===
-2020-04-12 12:01:30,259 INFO ===< ClangPass::simplify-callexpr >===
-2020-04-12 12:01:30,315 INFO ===< ClangPass::remove-unused-function >===
-2020-04-12 12:01:30,353 INFO ===< ClangPass::remove-unused-enum-member >===
-2020-04-12 12:01:30,371 INFO ===< ClangPass::remove-enum-member-value >===
-2020-04-12 12:01:30,388 INFO ===< ClangBinarySearchPass::remove-unused-var >===
-2020-04-12 12:01:30,573 INFO (99.6%, 819 bytes)
-2020-04-12 12:01:30,573 INFO ===< ClangPass::simplify-if >===
-2020-04-12 12:01:30,727 INFO (99.6%, 835 bytes)
-2020-04-12 12:01:30,886 INFO (99.6%, 857 bytes)
-2020-04-12 12:01:30,903 INFO ===< ClangPass::reduce-array-dim >===
-2020-04-12 12:01:30,920 INFO ===< ClangPass::reduce-array-size >===
-2020-04-12 12:01:30,938 INFO ===< ClangPass::move-function-body >===
-2020-04-12 12:01:30,957 INFO ===< ClangPass::simplify-comma-expr >===
-2020-04-12 12:01:30,975 INFO ===< ClangPass::simplify-dependent-typedef >===
-2020-04-12 12:01:30,992 INFO ===< ClangPass::replace-simple-typedef >===
-2020-04-12 12:01:31,147 INFO (99.6%, 828 bytes)
-2020-04-12 12:01:31,314 INFO (99.6%, 804 bytes)
-2020-04-12 12:01:31,469 INFO (99.7%, 771 bytes)
-2020-04-12 12:01:31,487 INFO ===< ClangPass::replace-dependent-typedef >===
-2020-04-12 12:01:31,504 INFO ===< ClangPass::replace-one-level-typedef-type >===
-2020-04-12 12:01:31,522 INFO ===< ClangPass::remove-unused-field >===
-2020-04-12 12:01:31,541 INFO ===< ClangPass::instantiate-template-type-param-to-int >===
-2020-04-12 12:01:31,559 INFO ===< ClangPass::instantiate-template-param >===
-2020-04-12 12:01:31,577 INFO ===< ClangPass::template-arg-to-int >===
-2020-04-12 12:01:31,594 INFO ===< ClangPass::template-non-type-arg-to-int >===
-2020-04-12 12:01:31,613 INFO ===< ClangPass::reduce-class-template-param >===
-2020-04-12 12:01:31,631 INFO ===< ClangPass::remove-trivial-base-template >===
-2020-04-12 12:01:31,649 INFO ===< ClangPass::class-template-to-class >===
-2020-04-12 12:01:31,667 INFO ===< ClangPass::remove-base-class >===
-2020-04-12 12:01:31,685 INFO ===< ClangPass::replace-derived-class >===
-2020-04-12 12:01:31,705 INFO ===< ClangPass::remove-unresolved-base >===
-2020-04-12 12:01:31,723 INFO ===< ClangPass::remove-ctor-initializer >===
-2020-04-12 12:01:31,741 INFO ===< ClangPass::replace-class-with-base-template-spec >===
-2020-04-12 12:01:31,758 INFO ===< ClangPass::simplify-nested-class >===
-2020-04-12 12:01:31,775 INFO ===< ClangPass::remove-unused-outer-class >===
-2020-04-12 12:01:31,792 INFO ===< ClangPass::empty-struct-to-int >===
-2020-04-12 12:01:31,945 INFO (99.7%, 744 bytes)
-2020-04-12 12:01:31,965 INFO ===< ClangPass::remove-pointer >===
-2020-04-12 12:01:31,982 INFO ===< ClangPass::reduce-pointer-pairs >===
-2020-04-12 12:01:32,001 INFO ===< ClangPass::remove-array >===
-2020-04-12 12:01:32,019 INFO ===< ClangPass::remove-addr-taken >===
-2020-04-12 12:01:32,174 INFO (99.7%, 743 bytes)
-2020-04-12 12:01:32,193 INFO ===< ClangPass::simplify-struct >===
-2020-04-12 12:01:32,212 INFO ===< ClangPass::replace-undefined-function >===
-2020-04-12 12:01:32,230 INFO ===< ClangPass::replace-array-index-var >===
-2020-04-12 12:01:32,248 INFO ===< ClangPass::replace-array-access-with-index >===
-2020-04-12 12:01:32,265 INFO ===< ClangPass::replace-dependent-name >===
-2020-04-12 12:01:32,281 INFO ===< ClangPass::simplify-recursive-template-instantiation >===
-2020-04-12 12:01:32,299 INFO ===< ClangPass::vector-to-array >===
-2020-04-12 12:01:32,318 INFO ===< LinesPass::0 >===
-2020-04-12 12:01:32,335 INFO ===< LinesPass::1 >===
-2020-04-12 12:01:32,365 INFO ===< LinesPass::2 >===
-2020-04-12 12:01:32,526 INFO (99.7%, 709 bytes)
-2020-04-12 12:01:32,543 INFO ===< LinesPass::3 >===
-2020-04-12 12:01:32,588 INFO ===< LinesPass::4 >===
-2020-04-12 12:01:32,636 INFO ===< LinesPass::6 >===
-2020-04-12 12:01:32,683 INFO ===< LinesPass::8 >===
-2020-04-12 12:01:32,734 INFO ===< LinesPass::10 >===
-2020-04-12 12:01:32,780 INFO ===< UnIfDefPass >===
-2020-04-12 12:01:32,782 INFO ===< CommentsPass >===
-2020-04-12 12:01:32,783 INFO ===< SpecialPass::b >===
-2020-04-12 12:01:32,783 INFO ===< SpecialPass::c >===
-2020-04-12 12:01:32,784 INFO ===< IndentPass::regular >===
-2020-04-12 12:01:32,934 INFO (99.8%, 417 bytes)
-2020-04-12 12:01:32,935 INFO ===< BalancedPass::parens-to-zero >===
-2020-04-12 12:01:32,963 INFO ===< ClexPass::rm-toks-1 >===
-2020-04-12 12:01:33,098 INFO (99.8%, 403 bytes)
-2020-04-12 12:01:33,250 INFO (99.8%, 394 bytes)
-2020-04-12 12:01:33,396 INFO (99.8%, 389 bytes)
-2020-04-12 12:01:33,578 INFO (99.8%, 387 bytes)
-2020-04-12 12:01:33,730 INFO (99.8%, 380 bytes)
-2020-04-12 12:01:33,870 INFO (99.8%, 373 bytes)
-2020-04-12 12:01:34,010 INFO (99.8%, 369 bytes)
-2020-04-12 12:01:34,197 INFO (99.8%, 360 bytes)
-2020-04-12 12:01:34,337 INFO (99.8%, 355 bytes)
-2020-04-12 12:01:34,484 INFO (99.8%, 351 bytes)
-2020-04-12 12:01:34,645 INFO (99.8%, 346 bytes)
-2020-04-12 12:01:34,793 INFO (99.8%, 342 bytes)
-2020-04-12 12:01:34,998 INFO (99.8%, 340 bytes)
-2020-04-12 12:01:35,164 INFO (99.9%, 327 bytes)
-2020-04-12 12:01:35,301 INFO (99.9%, 325 bytes)
-2020-04-12 12:01:35,313 INFO ===< ClexPass::rm-toks-2 >===
-2020-04-12 12:01:35,477 INFO (99.9%, 318 bytes)
-2020-04-12 12:01:35,716 INFO (99.9%, 311 bytes)
-2020-04-12 12:01:35,922 INFO (99.9%, 308 bytes)
-2020-04-12 12:01:36,068 INFO (99.9%, 288 bytes)
-2020-04-12 12:01:36,205 INFO (99.9%, 286 bytes)
-2020-04-12 12:01:36,349 INFO (99.9%, 270 bytes)
-2020-04-12 12:01:36,383 INFO ===< ClexPass::rm-toks-3 >===
-2020-04-12 12:01:36,657 INFO (99.9%, 249 bytes)
-2020-04-12 12:01:36,721 INFO ===< ClexPass::rm-toks-4 >===
-2020-04-12 12:01:36,960 INFO ===< ClexPass::rm-toks-5 >===
-2020-04-12 12:01:37,166 INFO (99.9%, 231 bytes)
-2020-04-12 12:01:37,327 INFO ===< ClexPass::rm-toks-6 >===
-2020-04-12 12:01:37,510 INFO ===< ClexPass::rm-toks-7 >===
-2020-04-12 12:01:37,692 INFO ===< ClexPass::rm-toks-8 >===
-2020-04-12 12:01:37,873 INFO ===< ClexPass::rm-toks-9 >===
-2020-04-12 12:01:38,054 INFO ===< ClexPass::rm-toks-10 >===
-2020-04-12 12:01:38,221 INFO ===< ClexPass::rm-toks-11 >===
-2020-04-12 12:01:38,404 INFO ===< ClexPass::rm-toks-12 >===
-2020-04-12 12:01:38,591 INFO ===< ClexPass::rm-toks-13 >===
-2020-04-12 12:01:38,764 INFO ===< ClexPass::rm-toks-14 >===
-2020-04-12 12:01:38,938 INFO ===< ClexPass::rm-toks-15 >===
-2020-04-12 12:01:39,123 INFO ===< ClexPass::rm-toks-16 >===
-2020-04-12 12:01:39,298 INFO ===< ClexPass::rm-tok-pattern-4 >===
-2020-04-12 12:01:40,777 INFO ===< ClangPass::local-to-global >===
-2020-04-12 12:01:40,855 INFO ===< PeepPass::a >===
-2020-04-12 12:01:40,930 INFO ===< PeepPass::c >===
-2020-04-12 12:01:40,933 INFO ===< IntsPass::a >===
-2020-04-12 12:01:40,934 INFO ===< IntsPass::b >===
-2020-04-12 12:01:40,934 INFO ===< IntsPass::c >===
-2020-04-12 12:01:40,935 INFO ===< IntsPass::d >===
-2020-04-12 12:01:40,936 INFO ===< IntsPass::c >===
-2020-04-12 12:01:40,936 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:40,936 INFO ===< BalancedPass::parens-only >===
-2020-04-12 12:01:41,073 INFO (99.9%, 229 bytes)
-2020-04-12 12:01:41,207 INFO (99.9%, 227 bytes)
-2020-04-12 12:01:41,226 INFO ===< ClexPass::rename-toks >===
-2020-04-12 12:01:41,366 INFO (99.9%, 223 bytes)
-2020-04-12 12:01:41,505 INFO (99.9%, 196 bytes)
-2020-04-12 12:01:41,644 INFO (99.9%, 160 bytes)
-2020-04-12 12:01:41,782 INFO (99.9%, 150 bytes)
-2020-04-12 12:01:41,922 INFO (99.9%, 145 bytes)
-2020-04-12 12:01:42,057 INFO (99.9%, 128 bytes)
-2020-04-12 12:01:42,201 INFO (99.9%, 117 bytes)
-2020-04-12 12:01:42,203 INFO ===< ClexPass::delete-string >===
-2020-04-12 12:01:42,206 INFO ===< ClexPass::define >===
-2020-04-12 12:01:42,208 INFO Termination check: size was 827; now 117
-2020-04-12 12:01:42,208 INFO ===< IncludeIncludesPass >===
-2020-04-12 12:01:42,209 INFO ===< TernaryPass::b >===
-2020-04-12 12:01:42,211 INFO ===< TernaryPass::c >===
-2020-04-12 12:01:42,213 INFO ===< BalancedPass::curly >===
-2020-04-12 12:01:42,231 INFO ===< BalancedPass::curly2 >===
-2020-04-12 12:01:42,252 INFO ===< BalancedPass::curly3 >===
-2020-04-12 12:01:42,253 INFO ===< BalancedPass::parens >===
-2020-04-12 12:01:42,272 INFO ===< BalancedPass::angles >===
-2020-04-12 12:01:42,273 INFO ===< BalancedPass::square >===
-2020-04-12 12:01:42,286 INFO ===< BalancedPass::curly-inside >===
-2020-04-12 12:01:42,430 INFO ===< BalancedPass::parens-inside >===
-2020-04-12 12:01:42,449 INFO ===< BalancedPass::angles-inside >===
-2020-04-12 12:01:42,449 INFO ===< BalancedPass::square-inside >===
-2020-04-12 12:01:42,460 INFO ===< BalancedPass::curly-only >===
-2020-04-12 12:01:42,605 INFO (99.9%, 115 bytes)
-2020-04-12 12:01:42,615 INFO ===< BalancedPass::angles-only >===
-2020-04-12 12:01:42,616 INFO ===< BalancedPass::square-only >===
-2020-04-12 12:01:42,624 INFO ===< ClangPass::remove-namespace >===
-2020-04-12 12:01:42,660 INFO ===< ClangPass::aggregate-to-scalar >===
-2020-04-12 12:01:42,677 INFO ===< ClangPass::param-to-global >===
-2020-04-12 12:01:42,714 INFO ===< ClangPass::param-to-local >===
-2020-04-12 12:01:42,748 INFO ===< ClangPass::remove-nested-function >===
-2020-04-12 12:01:42,766 INFO ===< ClangPass::union-to-struct >===
-2020-04-12 12:01:42,779 INFO ===< ClangPass::return-void >===
-2020-04-12 12:01:42,939 INFO (99.9%, 120 bytes)
-2020-04-12 12:01:43,090 INFO (99.9%, 125 bytes)
-2020-04-12 12:01:43,108 INFO ===< ClangPass::simple-inliner >===
-2020-04-12 12:01:43,125 INFO ===< ClangPass::reduce-pointer-level >===
-2020-04-12 12:01:43,143 INFO ===< ClangPass::lift-assignment-expr >===
-2020-04-12 12:01:43,160 INFO ===< ClangPass::copy-propagation >===
-2020-04-12 12:01:43,177 INFO ===< ClangPass::callexpr-to-value >===
-2020-04-12 12:01:43,231 INFO ===< ClangPass::replace-callexpr >===
-2020-04-12 12:01:43,250 INFO ===< ClangPass::simplify-callexpr >===
-2020-04-12 12:01:43,306 INFO ===< ClangPass::remove-unused-function >===
-2020-04-12 12:01:43,342 INFO ===< ClangPass::remove-unused-enum-member >===
-2020-04-12 12:01:43,359 INFO ===< ClangPass::remove-enum-member-value >===
-2020-04-12 12:01:43,377 INFO ===< ClangBinarySearchPass::remove-unused-var >===
-2020-04-12 12:01:43,546 INFO ===< ClangPass::simplify-if >===
-2020-04-12 12:01:43,565 INFO ===< ClangPass::reduce-array-dim >===
-2020-04-12 12:01:43,583 INFO ===< ClangPass::reduce-array-size >===
-2020-04-12 12:01:43,601 INFO ===< ClangPass::move-function-body >===
-2020-04-12 12:01:43,619 INFO ===< ClangPass::simplify-comma-expr >===
-2020-04-12 12:01:43,637 INFO ===< ClangPass::simplify-dependent-typedef >===
-2020-04-12 12:01:43,655 INFO ===< ClangPass::replace-simple-typedef >===
-2020-04-12 12:01:43,693 INFO ===< ClangPass::replace-dependent-typedef >===
-2020-04-12 12:01:43,709 INFO ===< ClangPass::replace-one-level-typedef-type >===
-2020-04-12 12:01:43,727 INFO ===< ClangPass::remove-unused-field >===
-2020-04-12 12:01:43,764 INFO ===< ClangPass::instantiate-template-type-param-to-int >===
-2020-04-12 12:01:43,784 INFO ===< ClangPass::instantiate-template-param >===
-2020-04-12 12:01:43,802 INFO ===< ClangPass::template-arg-to-int >===
-2020-04-12 12:01:43,821 INFO ===< ClangPass::template-non-type-arg-to-int >===
-2020-04-12 12:01:43,837 INFO ===< ClangPass::reduce-class-template-param >===
-2020-04-12 12:01:43,853 INFO ===< ClangPass::remove-trivial-base-template >===
-2020-04-12 12:01:43,871 INFO ===< ClangPass::class-template-to-class >===
-2020-04-12 12:01:43,888 INFO ===< ClangPass::remove-base-class >===
-2020-04-12 12:01:43,904 INFO ===< ClangPass::replace-derived-class >===
-2020-04-12 12:01:43,924 INFO ===< ClangPass::remove-unresolved-base >===
-2020-04-12 12:01:43,941 INFO ===< ClangPass::remove-ctor-initializer >===
-2020-04-12 12:01:43,960 INFO ===< ClangPass::replace-class-with-base-template-spec >===
-2020-04-12 12:01:43,978 INFO ===< ClangPass::simplify-nested-class >===
-2020-04-12 12:01:43,997 INFO ===< ClangPass::remove-unused-outer-class >===
-2020-04-12 12:01:44,013 INFO ===< ClangPass::empty-struct-to-int >===
-2020-04-12 12:01:44,050 INFO ===< ClangPass::remove-pointer >===
-2020-04-12 12:01:44,068 INFO ===< ClangPass::reduce-pointer-pairs >===
-2020-04-12 12:01:44,085 INFO ===< ClangPass::remove-array >===
-2020-04-12 12:01:44,103 INFO ===< ClangPass::remove-addr-taken >===
-2020-04-12 12:01:44,121 INFO ===< ClangPass::simplify-struct >===
-2020-04-12 12:01:44,139 INFO ===< ClangPass::replace-undefined-function >===
-2020-04-12 12:01:44,157 INFO ===< ClangPass::replace-array-index-var >===
-2020-04-12 12:01:44,175 INFO ===< ClangPass::replace-array-access-with-index >===
-2020-04-12 12:01:44,191 INFO ===< ClangPass::replace-dependent-name >===
-2020-04-12 12:01:44,208 INFO ===< ClangPass::simplify-recursive-template-instantiation >===
-2020-04-12 12:01:44,225 INFO ===< ClangPass::vector-to-array >===
-2020-04-12 12:01:44,243 INFO ===< LinesPass::0 >===
-2020-04-12 12:01:44,259 INFO ===< LinesPass::1 >===
-2020-04-12 12:01:44,293 INFO ===< LinesPass::2 >===
-2020-04-12 12:01:44,326 INFO ===< LinesPass::3 >===
-2020-04-12 12:01:44,359 INFO ===< LinesPass::4 >===
-2020-04-12 12:01:44,394 INFO ===< LinesPass::6 >===
-2020-04-12 12:01:44,424 INFO ===< LinesPass::8 >===
-2020-04-12 12:01:44,456 INFO ===< LinesPass::10 >===
-2020-04-12 12:01:44,485 INFO ===< UnIfDefPass >===
-2020-04-12 12:01:44,488 INFO ===< CommentsPass >===
-2020-04-12 12:01:44,488 INFO ===< SpecialPass::b >===
-2020-04-12 12:01:44,489 INFO ===< SpecialPass::c >===
-2020-04-12 12:01:44,489 INFO ===< IndentPass::regular >===
-2020-04-12 12:01:44,640 INFO (100.0%, 109 bytes)
-2020-04-12 12:01:44,640 INFO ===< BalancedPass::parens-to-zero >===
-2020-04-12 12:01:44,656 INFO ===< ClexPass::rm-toks-1 >===
-2020-04-12 12:01:44,838 INFO (100.0%, 104 bytes)
-2020-04-12 12:01:45,016 INFO (100.0%, 99 bytes)
-2020-04-12 12:01:45,087 INFO ===< ClexPass::rm-toks-2 >===
-2020-04-12 12:01:45,361 INFO ===< ClexPass::rm-toks-3 >===
-2020-04-12 12:01:45,577 INFO ===< ClexPass::rm-toks-4 >===
-2020-04-12 12:01:45,784 INFO ===< ClexPass::rm-toks-5 >===
-2020-04-12 12:01:45,992 INFO ===< ClexPass::rm-toks-6 >===
-2020-04-12 12:01:46,151 INFO ===< ClexPass::rm-toks-7 >===
-2020-04-12 12:01:46,316 INFO ===< ClexPass::rm-toks-8 >===
-2020-04-12 12:01:46,476 INFO ===< ClexPass::rm-toks-9 >===
-2020-04-12 12:01:46,637 INFO ===< ClexPass::rm-toks-10 >===
-2020-04-12 12:01:46,798 INFO ===< ClexPass::rm-toks-11 >===
-2020-04-12 12:01:46,958 INFO ===< ClexPass::rm-toks-12 >===
-2020-04-12 12:01:47,127 INFO ===< ClexPass::rm-toks-13 >===
-2020-04-12 12:01:47,295 INFO ===< ClexPass::rm-toks-14 >===
-2020-04-12 12:01:47,457 INFO ===< ClexPass::rm-toks-15 >===
-2020-04-12 12:01:47,619 INFO ===< ClexPass::rm-toks-16 >===
-2020-04-12 12:01:47,786 INFO ===< ClexPass::rm-tok-pattern-4 >===
-2020-04-12 12:01:49,222 INFO ===< ClangPass::local-to-global >===
-2020-04-12 12:01:49,299 INFO ===< PeepPass::a >===
-2020-04-12 12:01:49,348 INFO ===< PeepPass::c >===
-2020-04-12 12:01:49,350 INFO ===< IntsPass::a >===
-2020-04-12 12:01:49,350 INFO ===< IntsPass::b >===
-2020-04-12 12:01:49,350 INFO ===< IntsPass::c >===
-2020-04-12 12:01:49,351 INFO ===< IntsPass::d >===
-2020-04-12 12:01:49,351 INFO ===< IntsPass::c >===
-2020-04-12 12:01:49,351 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:49,351 INFO ===< BalancedPass::parens-only >===
-2020-04-12 12:01:49,367 INFO ===< ClexPass::rename-toks >===
-2020-04-12 12:01:49,369 INFO ===< ClexPass::delete-string >===
-2020-04-12 12:01:49,372 INFO ===< ClexPass::define >===
-2020-04-12 12:01:49,374 INFO Termination check: size was 117; now 99
-2020-04-12 12:01:49,374 INFO ===< IncludeIncludesPass >===
-2020-04-12 12:01:49,375 INFO ===< TernaryPass::b >===
-2020-04-12 12:01:49,377 INFO ===< TernaryPass::c >===
-2020-04-12 12:01:49,378 INFO ===< BalancedPass::curly >===
-2020-04-12 12:01:49,393 INFO ===< BalancedPass::curly2 >===
-2020-04-12 12:01:49,409 INFO ===< BalancedPass::curly3 >===
-2020-04-12 12:01:49,410 INFO ===< BalancedPass::parens >===
-2020-04-12 12:01:49,432 INFO ===< BalancedPass::angles >===
-2020-04-12 12:01:49,432 INFO ===< BalancedPass::square >===
-2020-04-12 12:01:49,448 INFO ===< BalancedPass::curly-inside >===
-2020-04-12 12:01:49,586 INFO ===< BalancedPass::parens-inside >===
-2020-04-12 12:01:49,607 INFO ===< BalancedPass::angles-inside >===
-2020-04-12 12:01:49,608 INFO ===< BalancedPass::square-inside >===
-2020-04-12 12:01:49,618 INFO ===< BalancedPass::curly-only >===
-2020-04-12 12:01:49,633 INFO ===< BalancedPass::angles-only >===
-2020-04-12 12:01:49,634 INFO ===< BalancedPass::square-only >===
-2020-04-12 12:01:49,643 INFO ===< ClangPass::remove-namespace >===
-2020-04-12 12:01:49,660 INFO ===< ClangPass::aggregate-to-scalar >===
-2020-04-12 12:01:49,678 INFO ===< ClangPass::param-to-global >===
-2020-04-12 12:01:49,714 INFO ===< ClangPass::param-to-local >===
-2020-04-12 12:01:49,750 INFO ===< ClangPass::remove-nested-function >===
-2020-04-12 12:01:49,768 INFO ===< ClangPass::union-to-struct >===
-2020-04-12 12:01:49,786 INFO ===< ClangPass::return-void >===
-2020-04-12 12:01:49,941 INFO (100.0%, 104 bytes)
-2020-04-12 12:01:50,092 INFO (100.0%, 109 bytes)
-2020-04-12 12:01:50,110 INFO ===< ClangPass::simple-inliner >===
-2020-04-12 12:01:50,127 INFO ===< ClangPass::reduce-pointer-level >===
-2020-04-12 12:01:50,145 INFO ===< ClangPass::lift-assignment-expr >===
-2020-04-12 12:01:50,163 INFO ===< ClangPass::copy-propagation >===
-2020-04-12 12:01:50,180 INFO ===< ClangPass::callexpr-to-value >===
-2020-04-12 12:01:50,237 INFO ===< ClangPass::replace-callexpr >===
-2020-04-12 12:01:50,255 INFO ===< ClangPass::simplify-callexpr >===
-2020-04-12 12:01:50,311 INFO ===< ClangPass::remove-unused-function >===
-2020-04-12 12:01:50,347 INFO ===< ClangPass::remove-unused-enum-member >===
-2020-04-12 12:01:50,365 INFO ===< ClangPass::remove-enum-member-value >===
-2020-04-12 12:01:50,384 INFO ===< ClangBinarySearchPass::remove-unused-var >===
-2020-04-12 12:01:50,552 INFO ===< ClangPass::simplify-if >===
-2020-04-12 12:01:50,572 INFO ===< ClangPass::reduce-array-dim >===
-2020-04-12 12:01:50,590 INFO ===< ClangPass::reduce-array-size >===
-2020-04-12 12:01:50,608 INFO ===< ClangPass::move-function-body >===
-2020-04-12 12:01:50,626 INFO ===< ClangPass::simplify-comma-expr >===
-2020-04-12 12:01:50,645 INFO ===< ClangPass::simplify-dependent-typedef >===
-2020-04-12 12:01:50,662 INFO ===< ClangPass::replace-simple-typedef >===
-2020-04-12 12:01:50,698 INFO ===< ClangPass::replace-dependent-typedef >===
-2020-04-12 12:01:50,717 INFO ===< ClangPass::replace-one-level-typedef-type >===
-2020-04-12 12:01:50,733 INFO ===< ClangPass::remove-unused-field >===
-2020-04-12 12:01:50,770 INFO ===< ClangPass::instantiate-template-type-param-to-int >===
-2020-04-12 12:01:50,787 INFO ===< ClangPass::instantiate-template-param >===
-2020-04-12 12:01:50,804 INFO ===< ClangPass::template-arg-to-int >===
-2020-04-12 12:01:50,824 INFO ===< ClangPass::template-non-type-arg-to-int >===
-2020-04-12 12:01:50,842 INFO ===< ClangPass::reduce-class-template-param >===
-2020-04-12 12:01:50,861 INFO ===< ClangPass::remove-trivial-base-template >===
-2020-04-12 12:01:50,880 INFO ===< ClangPass::class-template-to-class >===
-2020-04-12 12:01:50,898 INFO ===< ClangPass::remove-base-class >===
-2020-04-12 12:01:50,916 INFO ===< ClangPass::replace-derived-class >===
-2020-04-12 12:01:50,934 INFO ===< ClangPass::remove-unresolved-base >===
-2020-04-12 12:01:50,952 INFO ===< ClangPass::remove-ctor-initializer >===
-2020-04-12 12:01:50,970 INFO ===< ClangPass::replace-class-with-base-template-spec >===
-2020-04-12 12:01:50,987 INFO ===< ClangPass::simplify-nested-class >===
-2020-04-12 12:01:51,004 INFO ===< ClangPass::remove-unused-outer-class >===
-2020-04-12 12:01:51,024 INFO ===< ClangPass::empty-struct-to-int >===
-2020-04-12 12:01:51,061 INFO ===< ClangPass::remove-pointer >===
-2020-04-12 12:01:51,079 INFO ===< ClangPass::reduce-pointer-pairs >===
-2020-04-12 12:01:51,097 INFO ===< ClangPass::remove-array >===
-2020-04-12 12:01:51,115 INFO ===< ClangPass::remove-addr-taken >===
-2020-04-12 12:01:51,133 INFO ===< ClangPass::simplify-struct >===
-2020-04-12 12:01:51,153 INFO ===< ClangPass::replace-undefined-function >===
-2020-04-12 12:01:51,171 INFO ===< ClangPass::replace-array-index-var >===
-2020-04-12 12:01:51,188 INFO ===< ClangPass::replace-array-access-with-index >===
-2020-04-12 12:01:51,205 INFO ===< ClangPass::replace-dependent-name >===
-2020-04-12 12:01:51,224 INFO ===< ClangPass::simplify-recursive-template-instantiation >===
-2020-04-12 12:01:51,242 INFO ===< ClangPass::vector-to-array >===
-2020-04-12 12:01:51,259 INFO ===< LinesPass::0 >===
-2020-04-12 12:01:51,276 INFO ===< LinesPass::1 >===
-2020-04-12 12:01:51,311 INFO ===< LinesPass::2 >===
-2020-04-12 12:01:51,346 INFO ===< LinesPass::3 >===
-2020-04-12 12:01:51,382 INFO ===< LinesPass::4 >===
-2020-04-12 12:01:51,415 INFO ===< LinesPass::6 >===
-2020-04-12 12:01:51,447 INFO ===< LinesPass::8 >===
-2020-04-12 12:01:51,481 INFO ===< LinesPass::10 >===
-2020-04-12 12:01:51,515 INFO ===< UnIfDefPass >===
-2020-04-12 12:01:51,518 INFO ===< CommentsPass >===
-2020-04-12 12:01:51,518 INFO ===< SpecialPass::b >===
-2020-04-12 12:01:51,518 INFO ===< SpecialPass::c >===
-2020-04-12 12:01:51,519 INFO ===< IndentPass::regular >===
-2020-04-12 12:01:51,533 INFO ===< BalancedPass::parens-to-zero >===
-2020-04-12 12:01:51,534 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,534 INFO ===< ClexPass::rm-toks-1 >===
-2020-04-12 12:01:51,540 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,540 INFO ===< ClexPass::rm-toks-2 >===
-2020-04-12 12:01:51,540 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,540 INFO ===< ClexPass::rm-toks-3 >===
-2020-04-12 12:01:51,541 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,541 INFO ===< ClexPass::rm-toks-4 >===
-2020-04-12 12:01:51,541 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,541 INFO ===< ClexPass::rm-toks-5 >===
-2020-04-12 12:01:51,541 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,541 INFO ===< ClexPass::rm-toks-6 >===
-2020-04-12 12:01:51,541 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,541 INFO ===< ClexPass::rm-toks-7 >===
-2020-04-12 12:01:51,542 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,542 INFO ===< ClexPass::rm-toks-8 >===
-2020-04-12 12:01:51,542 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,542 INFO ===< ClexPass::rm-toks-9 >===
-2020-04-12 12:01:51,542 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,542 INFO ===< ClexPass::rm-toks-10 >===
-2020-04-12 12:01:51,542 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,542 INFO ===< ClexPass::rm-toks-11 >===
-2020-04-12 12:01:51,543 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,543 INFO ===< ClexPass::rm-toks-12 >===
-2020-04-12 12:01:51,543 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,543 INFO ===< ClexPass::rm-toks-13 >===
-2020-04-12 12:01:51,543 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,543 INFO ===< ClexPass::rm-toks-14 >===
-2020-04-12 12:01:51,543 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,543 INFO ===< ClexPass::rm-toks-15 >===
-2020-04-12 12:01:51,544 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,544 INFO ===< ClexPass::rm-toks-16 >===
-2020-04-12 12:01:51,544 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,544 INFO ===< ClexPass::rm-tok-pattern-4 >===
-2020-04-12 12:01:51,544 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,544 INFO ===< ClangPass::local-to-global >===
-2020-04-12 12:01:51,544 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,545 INFO ===< PeepPass::a >===
-2020-04-12 12:01:51,545 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,545 INFO ===< PeepPass::c >===
-2020-04-12 12:01:51,545 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,545 INFO ===< IntsPass::a >===
-2020-04-12 12:01:51,545 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,545 INFO ===< IntsPass::b >===
-2020-04-12 12:01:51,545 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,546 INFO ===< IntsPass::c >===
-2020-04-12 12:01:51,546 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,546 INFO ===< IntsPass::d >===
-2020-04-12 12:01:51,546 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,546 INFO ===< IntsPass::c >===
-2020-04-12 12:01:51,546 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,546 INFO ===< BalancedPass::parens-only >===
-2020-04-12 12:01:51,546 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,546 INFO ===< ClexPass::rename-toks >===
-2020-04-12 12:01:51,546 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,546 INFO ===< ClexPass::delete-string >===
-2020-04-12 12:01:51,547 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,547 INFO ===< ClexPass::define >===
-2020-04-12 12:01:51,547 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
-2020-04-12 12:01:51,547 INFO Termination check: size was 99; now 99
-2020-04-12 12:01:51,547 INFO CLEANUP PASS
-2020-04-12 12:01:51,547 INFO ===< ClangPass::rename-fun >===
-2020-04-12 12:01:51,698 INFO (100.0%, 107 bytes)
-2020-04-12 12:01:51,717 INFO ===< ClangPass::rename-param >===
-2020-04-12 12:01:51,870 INFO (100.0%, 109 bytes)
-2020-04-12 12:01:51,888 INFO ===< ClangPass::rename-var >===
-2020-04-12 12:01:51,905 INFO ===< ClangPass::rename-class >===
-2020-04-12 12:01:51,923 INFO ===< ClangPass::rename-cxx-method >===
-2020-04-12 12:01:51,941 INFO ===< ClangPass::combine-global-var >===
-2020-04-12 12:01:51,960 INFO ===< ClangPass::combine-local-var >===
-2020-04-12 12:01:51,978 INFO ===< ClangPass::simplify-struct-union-decl >===
-2020-04-12 12:01:51,996 INFO ===< ClangPass::move-global-var >===
-2020-04-12 12:01:52,014 INFO ===< ClangPass::unify-function-decl >===
-2020-04-12 12:01:52,031 INFO ===< LinesPass::0 >===
-2020-04-12 12:01:52,048 INFO ===< ClexPass::rename-toks >===
-2020-04-12 12:01:52,186 INFO (100.0%, 105 bytes)
-2020-04-12 12:01:52,327 INFO (100.0%, 103 bytes)
-2020-04-12 12:01:52,466 INFO (100.0%, 101 bytes)
-2020-04-12 12:01:52,601 INFO (100.0%, 99 bytes)
-2020-04-12 12:01:52,604 INFO ===< ClexPass::delete-string >===
-2020-04-12 12:01:52,606 INFO ===< IndentPass::final >===
-2020-04-12 12:01:52,621 INFO ===================== done ====================
+00:00:00 INFO ===< 16087 >===
+00:00:00 INFO running 16 interestingness tests in parallel
+00:00:00 INFO INITIAL PASSES
+00:00:00 INFO ===< IncludesPass >===
+00:00:00 INFO ===< UnIfDefPass >===
+00:00:00 INFO ===< CommentsPass >===
+00:00:00 INFO ===< IfPass >===
+00:00:00 INFO ===< LineMarkersPass >===
+00:00:00 INFO (20.1%, 176281 bytes)
+00:00:00 INFO ===< BlankPass >===
+00:00:00 INFO (21.8%, 172430 bytes)
+00:00:00 INFO ===< ClangBinarySearchPass::replace-function-def-with-decl >===
+00:00:01 INFO (22.7%, 170538 bytes)
+00:00:01 INFO (23.3%, 169133 bytes)
+00:00:01 INFO (23.5%, 168746 bytes)
+00:00:02 INFO ===< ClangBinarySearchPass::remove-unused-function >===
+00:00:02 INFO (55.1%, 99032 bytes)
+00:00:02 INFO (55.2%, 98912 bytes)
+00:00:02 INFO ===< LinesPass::0 >===
+00:00:03 INFO (61.7%, 84490 bytes)
+00:00:03 INFO (64.2%, 78902 bytes)
+00:00:03 INFO (64.9%, 77364 bytes)
+00:00:03 INFO (66.1%, 74806 bytes)
+00:00:03 INFO (67.2%, 72418 bytes)
+00:00:04 INFO (68.3%, 70039 bytes)
+00:00:04 INFO (69.2%, 67845 bytes)
+00:00:04 INFO (70.4%, 65198 bytes)
+00:00:04 INFO (71.4%, 63035 bytes)
+00:00:04 INFO (73.1%, 59419 bytes)
+00:00:05 INFO (73.6%, 58230 bytes)
+00:00:05 INFO (74.0%, 57269 bytes)
+00:00:05 INFO (74.7%, 55865 bytes)
+00:00:05 INFO (75.3%, 54584 bytes)
+00:00:05 INFO (75.8%, 53304 bytes)
+00:00:06 INFO (76.4%, 51994 bytes)
+00:00:06 INFO (77.0%, 50768 bytes)
+00:00:06 INFO (77.1%, 50463 bytes)
+00:00:06 INFO (81.1%, 41791 bytes)
+00:00:06 INFO (81.5%, 40845 bytes)
+00:00:07 INFO (81.8%, 40143 bytes)
+00:00:07 INFO (82.3%, 38964 bytes)
+00:00:07 INFO (82.6%, 38352 bytes)
+00:00:07 INFO (82.9%, 37754 bytes)
+00:00:07 INFO (83.2%, 37063 bytes)
+00:00:08 INFO (83.6%, 36264 bytes)
+00:00:08 INFO (83.9%, 35448 bytes)
+00:00:08 INFO (84.4%, 34437 bytes)
+00:00:08 INFO (84.5%, 34183 bytes)
+00:00:08 INFO (84.6%, 33937 bytes)
+00:00:09 INFO (85.0%, 33185 bytes)
+00:00:09 INFO (85.2%, 32573 bytes)
+00:00:09 INFO (85.5%, 31968 bytes)
+00:00:09 INFO (85.6%, 31688 bytes)
+00:00:09 INFO (85.8%, 31428 bytes)
+00:00:10 INFO (85.8%, 31270 bytes)
+00:00:10 INFO (85.9%, 31098 bytes)
+00:00:10 INFO (86.7%, 29349 bytes)
+00:00:10 INFO (86.9%, 29010 bytes)
+00:00:10 INFO (86.9%, 28880 bytes)
+00:00:11 INFO (87.0%, 28753 bytes)
+00:00:11 INFO (87.0%, 28597 bytes)
+00:00:11 INFO (87.1%, 28467 bytes)
+00:00:11 INFO (87.2%, 28229 bytes)
+00:00:11 INFO (87.3%, 27984 bytes)
+00:00:11 INFO (87.6%, 27397 bytes)
+00:00:12 INFO (87.7%, 27044 bytes)
+00:00:12 INFO (87.8%, 26943 bytes)
+00:00:12 INFO (88.0%, 26444 bytes)
+00:00:12 INFO (88.3%, 25900 bytes)
+00:00:12 INFO (88.3%, 25718 bytes)
+00:00:13 INFO (88.5%, 25411 bytes)
+00:00:13 INFO (88.7%, 24823 bytes)
+00:00:13 INFO (89.0%, 24216 bytes)
+00:00:13 INFO (89.2%, 23720 bytes)
+00:00:13 INFO (89.4%, 23364 bytes)
+00:00:13 INFO (89.9%, 22197 bytes)
+00:00:14 INFO (90.1%, 21879 bytes)
+00:00:14 INFO (90.2%, 21587 bytes)
+00:00:14 INFO (90.3%, 21325 bytes)
+00:00:14 INFO (90.5%, 20972 bytes)
+00:00:14 INFO (90.8%, 20290 bytes)
+00:00:15 INFO (90.8%, 20223 bytes)
+00:00:15 INFO (90.9%, 20153 bytes)
+00:00:15 INFO (90.9%, 20081 bytes)
+00:00:15 INFO (90.9%, 20007 bytes)
+00:00:15 INFO (91.0%, 19933 bytes)
+00:00:16 INFO (91.0%, 19848 bytes)
+00:00:16 INFO (91.0%, 19753 bytes)
+00:00:16 INFO (91.1%, 19656 bytes)
+00:00:16 INFO (91.1%, 19568 bytes)
+00:00:16 INFO (91.2%, 19492 bytes)
+00:00:17 INFO (91.2%, 19406 bytes)
+00:00:17 INFO (91.2%, 19315 bytes)
+00:00:17 INFO (91.3%, 19210 bytes)
+00:00:17 INFO (91.3%, 19105 bytes)
+00:00:17 INFO (91.4%, 19028 bytes)
+00:00:18 INFO (91.4%, 18973 bytes)
+00:00:18 INFO (91.4%, 18885 bytes)
+00:00:18 INFO (91.5%, 18831 bytes)
+00:00:18 INFO (91.5%, 18775 bytes)
+00:00:18 INFO (91.5%, 18717 bytes)
+00:00:18 INFO (91.5%, 18661 bytes)
+00:00:19 INFO (91.6%, 18599 bytes)
+00:00:19 INFO (91.7%, 18386 bytes)
+00:00:19 INFO (91.7%, 18292 bytes)
+00:00:19 INFO (91.8%, 18121 bytes)
+00:00:19 INFO (91.9%, 17853 bytes)
+00:00:20 INFO (92.3%, 16989 bytes)
+00:00:20 INFO (92.3%, 16921 bytes)
+00:00:20 INFO (92.4%, 16839 bytes)
+00:00:20 INFO (92.4%, 16765 bytes)
+00:00:20 INFO (92.5%, 16636 bytes)
+00:00:21 INFO (92.5%, 16560 bytes)
+00:00:21 INFO (92.6%, 16348 bytes)
+00:00:21 INFO (92.7%, 16093 bytes)
+00:00:21 INFO (92.8%, 15832 bytes)
+00:00:21 INFO (92.9%, 15595 bytes)
+00:00:22 INFO (93.0%, 15352 bytes)
+00:00:22 INFO (93.2%, 15035 bytes)
+00:00:22 INFO (93.3%, 14813 bytes)
+00:00:22 INFO (93.4%, 14505 bytes)
+00:00:22 INFO (93.5%, 14287 bytes)
+00:00:23 INFO (93.6%, 14174 bytes)
+00:00:23 INFO (93.7%, 13864 bytes)
+00:00:23 INFO (93.8%, 13751 bytes)
+00:00:23 INFO (93.8%, 13645 bytes)
+00:00:23 INFO (93.9%, 13557 bytes)
+00:00:23 INFO (93.9%, 13349 bytes)
+00:00:24 INFO (94.1%, 13107 bytes)
+00:00:24 INFO (94.2%, 12853 bytes)
+00:00:24 INFO (94.5%, 12169 bytes)
+00:00:24 INFO (94.6%, 12001 bytes)
+00:00:24 INFO (94.6%, 11919 bytes)
+00:00:25 INFO (94.6%, 11833 bytes)
+00:00:25 INFO (94.7%, 11753 bytes)
+00:00:25 INFO (94.7%, 11628 bytes)
+00:00:25 INFO (94.9%, 11145 bytes)
+00:00:25 INFO (95.0%, 11071 bytes)
+00:00:25 INFO (95.0%, 11004 bytes)
+00:00:26 INFO (95.2%, 10606 bytes)
+00:00:26 INFO (95.3%, 10433 bytes)
+00:00:26 INFO (95.3%, 10348 bytes)
+00:00:26 INFO (95.3%, 10270 bytes)
+00:00:26 INFO (95.5%, 9899 bytes)
+00:00:26 INFO (95.5%, 9819 bytes)
+00:00:27 INFO (95.6%, 9774 bytes)
+00:00:27 INFO (95.6%, 9676 bytes)
+00:00:27 INFO ===< LinesPass::1 >===
+00:00:27 INFO (96.3%, 8104 bytes)
+00:00:27 INFO (96.6%, 7481 bytes)
+00:00:27 INFO (96.7%, 7177 bytes)
+00:00:27 INFO (96.8%, 6988 bytes)
+00:00:28 INFO (96.9%, 6772 bytes)
+00:00:28 INFO (97.0%, 6571 bytes)
+00:00:28 INFO (97.1%, 6387 bytes)
+00:00:28 INFO (97.6%, 5214 bytes)
+00:00:28 INFO (97.7%, 5033 bytes)
+00:00:28 INFO (97.8%, 4804 bytes)
+00:00:29 INFO (97.9%, 4635 bytes)
+00:00:29 INFO (97.9%, 4528 bytes)
+00:00:29 INFO (98.0%, 4473 bytes)
+00:00:29 INFO (98.0%, 4420 bytes)
+00:00:29 INFO (98.0%, 4330 bytes)
+00:00:29 INFO (98.2%, 4004 bytes)
+00:00:30 INFO (98.4%, 3605 bytes)
+00:00:30 INFO (98.4%, 3547 bytes)
+00:00:30 INFO (98.4%, 3496 bytes)
+00:00:30 INFO (98.5%, 3417 bytes)
+00:00:30 INFO (98.5%, 3346 bytes)
+00:00:30 INFO (98.5%, 3243 bytes)
+00:00:30 INFO ===< LinesPass::2 >===
+00:00:31 INFO (98.7%, 2954 bytes)
+00:00:31 INFO (98.8%, 2724 bytes)
+00:00:31 INFO (98.9%, 2476 bytes)
+00:00:31 INFO (98.9%, 2356 bytes)
+00:00:31 INFO (99.0%, 2299 bytes)
+00:00:31 INFO (99.0%, 2224 bytes)
+00:00:32 INFO (99.0%, 2149 bytes)
+00:00:32 INFO (99.1%, 2056 bytes)
+00:00:32 INFO (99.1%, 1964 bytes)
+00:00:32 INFO (99.1%, 1920 bytes)
+00:00:32 INFO (99.2%, 1836 bytes)
+00:00:32 INFO (99.2%, 1802 bytes)
+00:00:33 INFO (99.2%, 1735 bytes)
+00:00:33 INFO (99.2%, 1675 bytes)
+00:00:33 INFO (99.3%, 1479 bytes)
+00:00:33 INFO (99.4%, 1431 bytes)
+00:00:33 INFO ===< LinesPass::3 >===
+00:00:33 INFO (99.4%, 1295 bytes)
+00:00:33 INFO (99.5%, 1145 bytes)
+00:00:33 INFO ===< LinesPass::4 >===
+00:00:34 INFO (99.5%, 1098 bytes)
+00:00:34 INFO ===< LinesPass::6 >===
+00:00:34 INFO ===< LinesPass::8 >===
+00:00:34 INFO ===< LinesPass::10 >===
+00:00:34 INFO ===< ClangBinarySearchPass::replace-function-def-with-decl >===
+00:00:34 INFO ===< ClangBinarySearchPass::remove-unused-function >===
+00:00:34 INFO ===< ClangPass::remove-unused-function >===
+00:00:34 INFO ===< BalancedPass::curly >===
+00:00:35 INFO (99.5%, 1029 bytes)
+00:00:35 INFO ===< BalancedPass::curly2 >===
+00:00:35 INFO (99.6%, 853 bytes)
+00:00:35 INFO ===< BalancedPass::curly3 >===
+00:00:35 INFO ===< BalancedPass::parens-to-zero >===
+00:00:35 INFO (99.6%, 835 bytes)
+00:00:35 INFO ===< ClangPass::callexpr-to-value >===
+00:00:35 INFO ===< ClangPass::replace-callexpr >===
+00:00:35 INFO ===< ClangPass::simplify-callexpr >===
+00:00:35 INFO ===< ClangPass::remove-unused-enum-member >===
+00:00:35 INFO ===< ClangPass::remove-enum-member-value >===
+00:00:35 INFO ===< ClangBinarySearchPass::remove-unused-var >===
+00:00:35 INFO (99.6%, 827 bytes)
+00:00:35 INFO ===< SpecialPass::a >===
+00:00:35 INFO ===< SpecialPass::b >===
+00:00:35 INFO ===< SpecialPass::c >===
+00:00:35 INFO MAIN PASSES
+00:00:35 INFO ===< IncludeIncludesPass >===
+00:00:35 INFO ===< TernaryPass::b >===
+00:00:35 INFO ===< TernaryPass::c >===
+00:00:35 INFO ===< BalancedPass::curly >===
+00:00:35 INFO ===< BalancedPass::curly2 >===
+00:00:35 INFO ===< BalancedPass::curly3 >===
+00:00:35 INFO ===< BalancedPass::parens >===
+00:00:36 INFO ===< BalancedPass::angles >===
+00:00:36 INFO ===< BalancedPass::square >===
+00:00:36 INFO (99.6%, 824 bytes)
+00:00:36 INFO ===< BalancedPass::curly-inside >===
+00:00:36 INFO ===< BalancedPass::parens-inside >===
+00:00:36 INFO (99.6%, 818 bytes)
+00:00:36 INFO (99.6%, 814 bytes)
+00:00:36 INFO ===< BalancedPass::angles-inside >===
+00:00:36 INFO ===< BalancedPass::square-inside >===
+00:00:36 INFO ===< BalancedPass::curly-only >===
+00:00:36 INFO ===< BalancedPass::angles-only >===
+00:00:36 INFO ===< BalancedPass::square-only >===
+00:00:36 INFO ===< ClangPass::remove-namespace >===
+00:00:36 INFO ===< ClangPass::aggregate-to-scalar >===
+00:00:36 INFO ===< ClangPass::param-to-global >===
+00:00:36 INFO (99.6%, 821 bytes)
+00:00:37 INFO (99.6%, 828 bytes)
+00:00:37 INFO (99.6%, 853 bytes)
+00:00:37 INFO ===< ClangPass::param-to-local >===
+00:00:37 INFO (99.6%, 868 bytes)
+00:00:37 INFO ===< ClangPass::remove-nested-function >===
+00:00:37 INFO ===< ClangPass::union-to-struct >===
+00:00:37 INFO ===< ClangPass::return-void >===
+00:00:37 INFO (99.6%, 845 bytes)
+00:00:37 INFO ===< ClangPass::simple-inliner >===
+00:00:37 INFO (99.6%, 925 bytes)
+00:00:37 INFO ===< ClangPass::reduce-pointer-level >===
+00:00:37 INFO (99.6%, 923 bytes)
+00:00:37 INFO ===< ClangPass::lift-assignment-expr >===
+00:00:38 INFO ===< ClangPass::copy-propagation >===
+00:00:38 INFO (99.6%, 918 bytes)
+00:00:38 INFO ===< ClangPass::callexpr-to-value >===
+00:00:38 INFO ===< ClangPass::replace-callexpr >===
+00:00:38 INFO ===< ClangPass::simplify-callexpr >===
+00:00:38 INFO ===< ClangPass::remove-unused-function >===
+00:00:38 INFO ===< ClangPass::remove-unused-enum-member >===
+00:00:38 INFO ===< ClangPass::remove-enum-member-value >===
+00:00:38 INFO ===< ClangBinarySearchPass::remove-unused-var >===
+00:00:38 INFO (99.6%, 819 bytes)
+00:00:38 INFO ===< ClangPass::simplify-if >===
+00:00:38 INFO (99.6%, 835 bytes)
+00:00:38 INFO (99.6%, 857 bytes)
+00:00:38 INFO ===< ClangPass::reduce-array-dim >===
+00:00:38 INFO ===< ClangPass::reduce-array-size >===
+00:00:38 INFO ===< ClangPass::move-function-body >===
+00:00:38 INFO ===< ClangPass::simplify-comma-expr >===
+00:00:38 INFO ===< ClangPass::simplify-dependent-typedef >===
+00:00:39 INFO ===< ClangPass::replace-simple-typedef >===
+00:00:39 INFO (99.6%, 828 bytes)
+00:00:39 INFO (99.6%, 804 bytes)
+00:00:39 INFO (99.7%, 771 bytes)
+00:00:39 INFO ===< ClangPass::replace-dependent-typedef >===
+00:00:39 INFO ===< ClangPass::replace-one-level-typedef-type >===
+00:00:39 INFO ===< ClangPass::remove-unused-field >===
+00:00:39 INFO ===< ClangPass::instantiate-template-type-param-to-int >===
+00:00:39 INFO ===< ClangPass::instantiate-template-param >===
+00:00:39 INFO ===< ClangPass::template-arg-to-int >===
+00:00:39 INFO ===< ClangPass::template-non-type-arg-to-int >===
+00:00:39 INFO ===< ClangPass::reduce-class-template-param >===
+00:00:39 INFO ===< ClangPass::remove-trivial-base-template >===
+00:00:39 INFO ===< ClangPass::class-template-to-class >===
+00:00:39 INFO ===< ClangPass::remove-base-class >===
+00:00:39 INFO ===< ClangPass::replace-derived-class >===
+00:00:39 INFO ===< ClangPass::remove-unresolved-base >===
+00:00:39 INFO ===< ClangPass::remove-ctor-initializer >===
+00:00:39 INFO ===< ClangPass::replace-class-with-base-template-spec >===
+00:00:39 INFO ===< ClangPass::simplify-nested-class >===
+00:00:39 INFO ===< ClangPass::remove-unused-outer-class >===
+00:00:39 INFO ===< ClangPass::empty-struct-to-int >===
+00:00:39 INFO (99.7%, 744 bytes)
+00:00:39 INFO ===< ClangPass::remove-pointer >===
+00:00:39 INFO ===< ClangPass::reduce-pointer-pairs >===
+00:00:39 INFO ===< ClangPass::remove-array >===
+00:00:40 INFO ===< ClangPass::remove-addr-taken >===
+00:00:40 INFO (99.7%, 743 bytes)
+00:00:40 INFO ===< ClangPass::simplify-struct >===
+00:00:40 INFO ===< ClangPass::replace-undefined-function >===
+00:00:40 INFO ===< ClangPass::replace-array-index-var >===
+00:00:40 INFO ===< ClangPass::replace-array-access-with-index >===
+00:00:40 INFO ===< ClangPass::replace-dependent-name >===
+00:00:40 INFO ===< ClangPass::simplify-recursive-template-instantiation >===
+00:00:40 INFO ===< ClangPass::vector-to-array >===
+00:00:40 INFO ===< LinesPass::0 >===
+00:00:40 INFO ===< LinesPass::1 >===
+00:00:40 INFO ===< LinesPass::2 >===
+00:00:40 INFO (99.7%, 709 bytes)
+00:00:40 INFO ===< LinesPass::3 >===
+00:00:40 INFO ===< LinesPass::4 >===
+00:00:40 INFO ===< LinesPass::6 >===
+00:00:40 INFO ===< LinesPass::8 >===
+00:00:40 INFO ===< LinesPass::10 >===
+00:00:40 INFO ===< UnIfDefPass >===
+00:00:40 INFO ===< CommentsPass >===
+00:00:40 INFO ===< SpecialPass::b >===
+00:00:40 INFO ===< SpecialPass::c >===
+00:00:40 INFO ===< IndentPass::regular >===
+00:00:40 INFO (99.8%, 417 bytes)
+00:00:40 INFO ===< BalancedPass::parens-to-zero >===
+00:00:40 INFO ===< ClexPass::rm-toks-1 >===
+00:00:41 INFO (99.8%, 403 bytes)
+00:00:41 INFO (99.8%, 394 bytes)
+00:00:41 INFO (99.8%, 389 bytes)
+00:00:41 INFO (99.8%, 387 bytes)
+00:00:41 INFO (99.8%, 380 bytes)
+00:00:41 INFO (99.8%, 373 bytes)
+00:00:42 INFO (99.8%, 369 bytes)
+00:00:42 INFO (99.8%, 360 bytes)
+00:00:42 INFO (99.8%, 355 bytes)
+00:00:42 INFO (99.8%, 351 bytes)
+00:00:42 INFO (99.8%, 346 bytes)
+00:00:42 INFO (99.8%, 342 bytes)
+00:00:43 INFO (99.8%, 340 bytes)
+00:00:43 INFO (99.9%, 327 bytes)
+00:00:43 INFO (99.9%, 325 bytes)
+00:00:43 INFO ===< ClexPass::rm-toks-2 >===
+00:00:43 INFO (99.9%, 318 bytes)
+00:00:43 INFO (99.9%, 311 bytes)
+00:00:43 INFO (99.9%, 308 bytes)
+00:00:44 INFO (99.9%, 288 bytes)
+00:00:44 INFO (99.9%, 286 bytes)
+00:00:44 INFO (99.9%, 270 bytes)
+00:00:44 INFO ===< ClexPass::rm-toks-3 >===
+00:00:44 INFO (99.9%, 249 bytes)
+00:00:44 INFO ===< ClexPass::rm-toks-4 >===
+00:00:45 INFO ===< ClexPass::rm-toks-5 >===
+00:00:45 INFO (99.9%, 231 bytes)
+00:00:45 INFO ===< ClexPass::rm-toks-6 >===
+00:00:45 INFO ===< ClexPass::rm-toks-7 >===
+00:00:45 INFO ===< ClexPass::rm-toks-8 >===
+00:00:45 INFO ===< ClexPass::rm-toks-9 >===
+00:00:46 INFO ===< ClexPass::rm-toks-10 >===
+00:00:46 INFO ===< ClexPass::rm-toks-11 >===
+00:00:46 INFO ===< ClexPass::rm-toks-12 >===
+00:00:46 INFO ===< ClexPass::rm-toks-13 >===
+00:00:46 INFO ===< ClexPass::rm-toks-14 >===
+00:00:47 INFO ===< ClexPass::rm-toks-15 >===
+00:00:47 INFO ===< ClexPass::rm-toks-16 >===
+00:00:47 INFO ===< ClexPass::rm-tok-pattern-4 >===
+00:00:48 INFO ===< ClangPass::local-to-global >===
+00:00:48 INFO ===< PeepPass::a >===
+00:00:48 INFO ===< PeepPass::c >===
+00:00:48 INFO ===< IntsPass::a >===
+00:00:48 INFO ===< IntsPass::b >===
+00:00:49 INFO ===< IntsPass::c >===
+00:00:49 INFO ===< IntsPass::d >===
+00:00:49 INFO ===< IntsPass::c >===
+00:00:49 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:49 INFO ===< BalancedPass::parens-only >===
+00:00:49 INFO (99.9%, 229 bytes)
+00:00:49 INFO (99.9%, 227 bytes)
+00:00:49 INFO ===< ClexPass::rename-toks >===
+00:00:49 INFO (99.9%, 223 bytes)
+00:00:49 INFO (99.9%, 196 bytes)
+00:00:49 INFO (99.9%, 160 bytes)
+00:00:49 INFO (99.9%, 150 bytes)
+00:00:49 INFO (99.9%, 145 bytes)
+00:00:50 INFO (99.9%, 128 bytes)
+00:00:50 INFO (99.9%, 117 bytes)
+00:00:50 INFO ===< ClexPass::delete-string >===
+00:00:50 INFO ===< ClexPass::define >===
+00:00:50 INFO Termination check: size was 827; now 117
+00:00:50 INFO ===< IncludeIncludesPass >===
+00:00:50 INFO ===< TernaryPass::b >===
+00:00:50 INFO ===< TernaryPass::c >===
+00:00:50 INFO ===< BalancedPass::curly >===
+00:00:50 INFO ===< BalancedPass::curly2 >===
+00:00:50 INFO ===< BalancedPass::curly3 >===
+00:00:50 INFO ===< BalancedPass::parens >===
+00:00:50 INFO ===< BalancedPass::angles >===
+00:00:50 INFO ===< BalancedPass::square >===
+00:00:50 INFO ===< BalancedPass::curly-inside >===
+00:00:50 INFO ===< BalancedPass::parens-inside >===
+00:00:50 INFO ===< BalancedPass::angles-inside >===
+00:00:50 INFO ===< BalancedPass::square-inside >===
+00:00:50 INFO ===< BalancedPass::curly-only >===
+00:00:50 INFO (99.9%, 115 bytes)
+00:00:50 INFO ===< BalancedPass::angles-only >===
+00:00:50 INFO ===< BalancedPass::square-only >===
+00:00:50 INFO ===< ClangPass::remove-namespace >===
+00:00:50 INFO ===< ClangPass::aggregate-to-scalar >===
+00:00:50 INFO ===< ClangPass::param-to-global >===
+00:00:50 INFO ===< ClangPass::param-to-local >===
+00:00:50 INFO ===< ClangPass::remove-nested-function >===
+00:00:50 INFO ===< ClangPass::union-to-struct >===
+00:00:50 INFO ===< ClangPass::return-void >===
+00:00:51 INFO (99.9%, 120 bytes)
+00:00:51 INFO (99.9%, 125 bytes)
+00:00:51 INFO ===< ClangPass::simple-inliner >===
+00:00:51 INFO ===< ClangPass::reduce-pointer-level >===
+00:00:51 INFO ===< ClangPass::lift-assignment-expr >===
+00:00:51 INFO ===< ClangPass::copy-propagation >===
+00:00:51 INFO ===< ClangPass::callexpr-to-value >===
+00:00:51 INFO ===< ClangPass::replace-callexpr >===
+00:00:51 INFO ===< ClangPass::simplify-callexpr >===
+00:00:51 INFO ===< ClangPass::remove-unused-function >===
+00:00:51 INFO ===< ClangPass::remove-unused-enum-member >===
+00:00:51 INFO ===< ClangPass::remove-enum-member-value >===
+00:00:51 INFO ===< ClangBinarySearchPass::remove-unused-var >===
+00:00:51 INFO ===< ClangPass::simplify-if >===
+00:00:51 INFO ===< ClangPass::reduce-array-dim >===
+00:00:51 INFO ===< ClangPass::reduce-array-size >===
+00:00:51 INFO ===< ClangPass::move-function-body >===
+00:00:51 INFO ===< ClangPass::simplify-comma-expr >===
+00:00:51 INFO ===< ClangPass::simplify-dependent-typedef >===
+00:00:51 INFO ===< ClangPass::replace-simple-typedef >===
+00:00:51 INFO ===< ClangPass::replace-dependent-typedef >===
+00:00:51 INFO ===< ClangPass::replace-one-level-typedef-type >===
+00:00:51 INFO ===< ClangPass::remove-unused-field >===
+00:00:51 INFO ===< ClangPass::instantiate-template-type-param-to-int >===
+00:00:51 INFO ===< ClangPass::instantiate-template-param >===
+00:00:51 INFO ===< ClangPass::template-arg-to-int >===
+00:00:51 INFO ===< ClangPass::template-non-type-arg-to-int >===
+00:00:51 INFO ===< ClangPass::reduce-class-template-param >===
+00:00:51 INFO ===< ClangPass::remove-trivial-base-template >===
+00:00:51 INFO ===< ClangPass::class-template-to-class >===
+00:00:51 INFO ===< ClangPass::remove-base-class >===
+00:00:52 INFO ===< ClangPass::replace-derived-class >===
+00:00:52 INFO ===< ClangPass::remove-unresolved-base >===
+00:00:52 INFO ===< ClangPass::remove-ctor-initializer >===
+00:00:52 INFO ===< ClangPass::replace-class-with-base-template-spec >===
+00:00:52 INFO ===< ClangPass::simplify-nested-class >===
+00:00:52 INFO ===< ClangPass::remove-unused-outer-class >===
+00:00:52 INFO ===< ClangPass::empty-struct-to-int >===
+00:00:52 INFO ===< ClangPass::remove-pointer >===
+00:00:52 INFO ===< ClangPass::reduce-pointer-pairs >===
+00:00:52 INFO ===< ClangPass::remove-array >===
+00:00:52 INFO ===< ClangPass::remove-addr-taken >===
+00:00:52 INFO ===< ClangPass::simplify-struct >===
+00:00:52 INFO ===< ClangPass::replace-undefined-function >===
+00:00:52 INFO ===< ClangPass::replace-array-index-var >===
+00:00:52 INFO ===< ClangPass::replace-array-access-with-index >===
+00:00:52 INFO ===< ClangPass::replace-dependent-name >===
+00:00:52 INFO ===< ClangPass::simplify-recursive-template-instantiation >===
+00:00:52 INFO ===< ClangPass::vector-to-array >===
+00:00:52 INFO ===< LinesPass::0 >===
+00:00:52 INFO ===< LinesPass::1 >===
+00:00:52 INFO ===< LinesPass::2 >===
+00:00:52 INFO ===< LinesPass::3 >===
+00:00:52 INFO ===< LinesPass::4 >===
+00:00:52 INFO ===< LinesPass::6 >===
+00:00:52 INFO ===< LinesPass::8 >===
+00:00:52 INFO ===< LinesPass::10 >===
+00:00:52 INFO ===< UnIfDefPass >===
+00:00:52 INFO ===< CommentsPass >===
+00:00:52 INFO ===< SpecialPass::b >===
+00:00:52 INFO ===< SpecialPass::c >===
+00:00:52 INFO ===< IndentPass::regular >===
+00:00:52 INFO (100.0%, 109 bytes)
+00:00:52 INFO ===< BalancedPass::parens-to-zero >===
+00:00:52 INFO ===< ClexPass::rm-toks-1 >===
+00:00:52 INFO (100.0%, 104 bytes)
+00:00:53 INFO (100.0%, 99 bytes)
+00:00:53 INFO ===< ClexPass::rm-toks-2 >===
+00:00:53 INFO ===< ClexPass::rm-toks-3 >===
+00:00:53 INFO ===< ClexPass::rm-toks-4 >===
+00:00:53 INFO ===< ClexPass::rm-toks-5 >===
+00:00:54 INFO ===< ClexPass::rm-toks-6 >===
+00:00:54 INFO ===< ClexPass::rm-toks-7 >===
+00:00:54 INFO ===< ClexPass::rm-toks-8 >===
+00:00:54 INFO ===< ClexPass::rm-toks-9 >===
+00:00:54 INFO ===< ClexPass::rm-toks-10 >===
+00:00:54 INFO ===< ClexPass::rm-toks-11 >===
+00:00:55 INFO ===< ClexPass::rm-toks-12 >===
+00:00:55 INFO ===< ClexPass::rm-toks-13 >===
+00:00:55 INFO ===< ClexPass::rm-toks-14 >===
+00:00:55 INFO ===< ClexPass::rm-toks-15 >===
+00:00:55 INFO ===< ClexPass::rm-toks-16 >===
+00:00:55 INFO ===< ClexPass::rm-tok-pattern-4 >===
+00:00:57 INFO ===< ClangPass::local-to-global >===
+00:00:57 INFO ===< PeepPass::a >===
+00:00:57 INFO ===< PeepPass::c >===
+00:00:57 INFO ===< IntsPass::a >===
+00:00:57 INFO ===< IntsPass::b >===
+00:00:57 INFO ===< IntsPass::c >===
+00:00:57 INFO ===< IntsPass::d >===
+00:00:57 INFO ===< IntsPass::c >===
+00:00:57 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:57 INFO ===< BalancedPass::parens-only >===
+00:00:57 INFO ===< ClexPass::rename-toks >===
+00:00:57 INFO ===< ClexPass::delete-string >===
+00:00:57 INFO ===< ClexPass::define >===
+00:00:57 INFO Termination check: size was 117; now 99
+00:00:57 INFO ===< IncludeIncludesPass >===
+00:00:57 INFO ===< TernaryPass::b >===
+00:00:57 INFO ===< TernaryPass::c >===
+00:00:57 INFO ===< BalancedPass::curly >===
+00:00:57 INFO ===< BalancedPass::curly2 >===
+00:00:57 INFO ===< BalancedPass::curly3 >===
+00:00:57 INFO ===< BalancedPass::parens >===
+00:00:57 INFO ===< BalancedPass::angles >===
+00:00:57 INFO ===< BalancedPass::square >===
+00:00:57 INFO ===< BalancedPass::curly-inside >===
+00:00:57 INFO ===< BalancedPass::parens-inside >===
+00:00:57 INFO ===< BalancedPass::angles-inside >===
+00:00:57 INFO ===< BalancedPass::square-inside >===
+00:00:57 INFO ===< BalancedPass::curly-only >===
+00:00:57 INFO ===< BalancedPass::angles-only >===
+00:00:57 INFO ===< BalancedPass::square-only >===
+00:00:57 INFO ===< ClangPass::remove-namespace >===
+00:00:57 INFO ===< ClangPass::aggregate-to-scalar >===
+00:00:57 INFO ===< ClangPass::param-to-global >===
+00:00:57 INFO ===< ClangPass::param-to-local >===
+00:00:57 INFO ===< ClangPass::remove-nested-function >===
+00:00:57 INFO ===< ClangPass::union-to-struct >===
+00:00:57 INFO ===< ClangPass::return-void >===
+00:00:57 INFO (100.0%, 104 bytes)
+00:00:58 INFO (100.0%, 109 bytes)
+00:00:58 INFO ===< ClangPass::simple-inliner >===
+00:00:58 INFO ===< ClangPass::reduce-pointer-level >===
+00:00:58 INFO ===< ClangPass::lift-assignment-expr >===
+00:00:58 INFO ===< ClangPass::copy-propagation >===
+00:00:58 INFO ===< ClangPass::callexpr-to-value >===
+00:00:58 INFO ===< ClangPass::replace-callexpr >===
+00:00:58 INFO ===< ClangPass::simplify-callexpr >===
+00:00:58 INFO ===< ClangPass::remove-unused-function >===
+00:00:58 INFO ===< ClangPass::remove-unused-enum-member >===
+00:00:58 INFO ===< ClangPass::remove-enum-member-value >===
+00:00:58 INFO ===< ClangBinarySearchPass::remove-unused-var >===
+00:00:58 INFO ===< ClangPass::simplify-if >===
+00:00:58 INFO ===< ClangPass::reduce-array-dim >===
+00:00:58 INFO ===< ClangPass::reduce-array-size >===
+00:00:58 INFO ===< ClangPass::move-function-body >===
+00:00:58 INFO ===< ClangPass::simplify-comma-expr >===
+00:00:58 INFO ===< ClangPass::simplify-dependent-typedef >===
+00:00:58 INFO ===< ClangPass::replace-simple-typedef >===
+00:00:58 INFO ===< ClangPass::replace-dependent-typedef >===
+00:00:58 INFO ===< ClangPass::replace-one-level-typedef-type >===
+00:00:58 INFO ===< ClangPass::remove-unused-field >===
+00:00:58 INFO ===< ClangPass::instantiate-template-type-param-to-int >===
+00:00:58 INFO ===< ClangPass::instantiate-template-param >===
+00:00:58 INFO ===< ClangPass::template-arg-to-int >===
+00:00:58 INFO ===< ClangPass::template-non-type-arg-to-int >===
+00:00:58 INFO ===< ClangPass::reduce-class-template-param >===
+00:00:58 INFO ===< ClangPass::remove-trivial-base-template >===
+00:00:58 INFO ===< ClangPass::class-template-to-class >===
+00:00:58 INFO ===< ClangPass::remove-base-class >===
+00:00:58 INFO ===< ClangPass::replace-derived-class >===
+00:00:58 INFO ===< ClangPass::remove-unresolved-base >===
+00:00:58 INFO ===< ClangPass::remove-ctor-initializer >===
+00:00:58 INFO ===< ClangPass::replace-class-with-base-template-spec >===
+00:00:58 INFO ===< ClangPass::simplify-nested-class >===
+00:00:58 INFO ===< ClangPass::remove-unused-outer-class >===
+00:00:58 INFO ===< ClangPass::empty-struct-to-int >===
+00:00:58 INFO ===< ClangPass::remove-pointer >===
+00:00:58 INFO ===< ClangPass::reduce-pointer-pairs >===
+00:00:59 INFO ===< ClangPass::remove-array >===
+00:00:59 INFO ===< ClangPass::remove-addr-taken >===
+00:00:59 INFO ===< ClangPass::simplify-struct >===
+00:00:59 INFO ===< ClangPass::replace-undefined-function >===
+00:00:59 INFO ===< ClangPass::replace-array-index-var >===
+00:00:59 INFO ===< ClangPass::replace-array-access-with-index >===
+00:00:59 INFO ===< ClangPass::replace-dependent-name >===
+00:00:59 INFO ===< ClangPass::simplify-recursive-template-instantiation >===
+00:00:59 INFO ===< ClangPass::vector-to-array >===
+00:00:59 INFO ===< LinesPass::0 >===
+00:00:59 INFO ===< LinesPass::1 >===
+00:00:59 INFO ===< LinesPass::2 >===
+00:00:59 INFO ===< LinesPass::3 >===
+00:00:59 INFO ===< LinesPass::4 >===
+00:00:59 INFO ===< LinesPass::6 >===
+00:00:59 INFO ===< LinesPass::8 >===
+00:00:59 INFO ===< LinesPass::10 >===
+00:00:59 INFO ===< UnIfDefPass >===
+00:00:59 INFO ===< CommentsPass >===
+00:00:59 INFO ===< SpecialPass::b >===
+00:00:59 INFO ===< SpecialPass::c >===
+00:00:59 INFO ===< IndentPass::regular >===
+00:00:59 INFO ===< BalancedPass::parens-to-zero >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-1 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-2 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-3 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-4 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-5 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-6 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-7 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-8 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-9 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-10 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-11 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-12 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-13 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-14 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-15 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-toks-16 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rm-tok-pattern-4 >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClangPass::local-to-global >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< PeepPass::a >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< PeepPass::c >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< IntsPass::a >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< IntsPass::b >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< IntsPass::c >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< IntsPass::d >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< IntsPass::c >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< BalancedPass::parens-only >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::rename-toks >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::delete-string >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO ===< ClexPass::define >===
+00:00:59 INFO cache hit for /home/marxin/Programming/creduce-benchmarks/pr94526-m68k-ice/pr94526.i
+00:00:59 INFO Termination check: size was 99; now 99
+00:00:59 INFO CLEANUP PASS
+00:00:59 INFO ===< ClangPass::rename-fun >===
+00:00:59 INFO (100.0%, 107 bytes)
+00:00:59 INFO ===< ClangPass::rename-param >===
+00:00:59 INFO (100.0%, 109 bytes)
+00:00:59 INFO ===< ClangPass::rename-var >===
+00:00:59 INFO ===< ClangPass::rename-class >===
+00:00:59 INFO ===< ClangPass::rename-cxx-method >===
+00:00:59 INFO ===< ClangPass::combine-global-var >===
+00:00:59 INFO ===< ClangPass::combine-local-var >===
+00:00:59 INFO ===< ClangPass::simplify-struct-union-decl >===
+00:00:59 INFO ===< ClangPass::move-global-var >===
+00:00:59 INFO ===< ClangPass::unify-function-decl >===
+00:00:59 INFO ===< LinesPass::0 >===
+00:00:59 INFO ===< ClexPass::rename-toks >===
+00:01:00 INFO (100.0%, 105 bytes)
+00:01:00 INFO (100.0%, 103 bytes)
+00:01:00 INFO (100.0%, 101 bytes)
+00:01:00 INFO (100.0%, 99 bytes)
+00:01:00 INFO ===< ClexPass::delete-string >===
+00:01:00 INFO ===< IndentPass::final >===
+00:01:00 INFO ===================== done ====================
 pass statistics:
-method LinesPass::0 worked 128 times and failed 225 times
-method LinesPass::1 worked 22 times and failed 95 times
-method ClexPass::rm-toks-1 worked 17 times and failed 116 times
-method LinesPass::2 worked 17 times and failed 77 times
+method LinesPass::0 worked 128 times and failed 230 times
+method LinesPass::1 worked 22 times and failed 96 times
+method ClexPass::rm-toks-1 worked 17 times and failed 115 times
+method LinesPass::2 worked 17 times and failed 78 times
 method ClexPass::rename-toks worked 11 times and failed 0 times
-method ClexPass::rm-toks-2 worked 6 times and failed 97 times
+method ClexPass::rm-toks-2 worked 6 times and failed 76 times
 method ClangPass::return-void worked 5 times and failed 2 times
 method ClangBinarySearchPass::replace-function-def-with-decl worked 3 times and failed 11 times
 method ClangPass::param-to-global worked 3 times and failed 4 times
@@ -689,10 +688,10 @@ method ClangBinarySearchPass::remove-unused-function worked 2 times and failed 1
 method ClangBinarySearchPass::remove-unused-var worked 2 times and failed 2 times
 method ClangPass::simplify-if worked 2 times and failed 0 times
 method IndentPass::regular worked 2 times and failed 0 times
-method LinesPass::3 worked 2 times and failed 57 times
+method LinesPass::3 worked 2 times and failed 53 times
 method BalancedPass::curly worked 1 times and failed 16 times
-method BalancedPass::curly-only worked 1 times and failed 10 times
-method BalancedPass::curly2 worked 1 times and failed 11 times
+method BalancedPass::curly-only worked 1 times and failed 9 times
+method BalancedPass::curly2 worked 1 times and failed 12 times
 method BalancedPass::parens-to-zero worked 1 times and failed 22 times
 method BalancedPass::square worked 1 times and failed 3 times
 method BlankPass worked 1 times and failed 0 times
@@ -704,12 +703,12 @@ method ClangPass::remove-addr-taken worked 1 times and failed 0 times
 method ClangPass::rename-fun worked 1 times and failed 0 times
 method ClangPass::rename-param worked 1 times and failed 0 times
 method ClangPass::simple-inliner worked 1 times and failed 0 times
-method ClexPass::rm-toks-3 worked 1 times and failed 69 times
-method ClexPass::rm-toks-5 worked 1 times and failed 48 times
+method ClexPass::rm-toks-3 worked 1 times and failed 68 times
+method ClexPass::rm-toks-5 worked 1 times and failed 53 times
 method LineMarkersPass worked 1 times and failed 0 times
-method LinesPass::4 worked 1 times and failed 47 times
+method LinesPass::4 worked 1 times and failed 48 times
 method BalancedPass::curly-inside worked 0 times and failed 6 times
-method BalancedPass::parens worked 0 times and failed 18 times
+method BalancedPass::parens worked 0 times and failed 17 times
 method BalancedPass::square-inside worked 0 times and failed 3 times
 method BalancedPass::square-only worked 0 times and failed 3 times
 method ClangPass::callexpr-to-value worked 0 times and failed 9 times
@@ -718,24 +717,24 @@ method ClangPass::remove-unused-field worked 0 times and failed 2 times
 method ClangPass::remove-unused-function worked 0 times and failed 4 times
 method ClangPass::replace-callexpr worked 0 times and failed 1 times
 method ClangPass::simplify-callexpr worked 0 times and failed 9 times
-method ClexPass::rm-tok-pattern-4 worked 0 times and failed 668 times
-method ClexPass::rm-toks-10 worked 0 times and failed 95 times
-method ClexPass::rm-toks-11 worked 0 times and failed 93 times
-method ClexPass::rm-toks-12 worked 0 times and failed 94 times
-method ClexPass::rm-toks-13 worked 0 times and failed 91 times
+method ClexPass::rm-tok-pattern-4 worked 0 times and failed 657 times
+method ClexPass::rm-toks-10 worked 0 times and failed 96 times
+method ClexPass::rm-toks-11 worked 0 times and failed 96 times
+method ClexPass::rm-toks-12 worked 0 times and failed 98 times
+method ClexPass::rm-toks-13 worked 0 times and failed 93 times
 method ClexPass::rm-toks-14 worked 0 times and failed 98 times
-method ClexPass::rm-toks-15 worked 0 times and failed 96 times
-method ClexPass::rm-toks-16 worked 0 times and failed 98 times
-method ClexPass::rm-toks-4 worked 0 times and failed 54 times
-method ClexPass::rm-toks-6 worked 0 times and failed 95 times
-method ClexPass::rm-toks-7 worked 0 times and failed 98 times
-method ClexPass::rm-toks-8 worked 0 times and failed 96 times
+method ClexPass::rm-toks-15 worked 0 times and failed 98 times
+method ClexPass::rm-toks-16 worked 0 times and failed 95 times
+method ClexPass::rm-toks-4 worked 0 times and failed 58 times
+method ClexPass::rm-toks-6 worked 0 times and failed 96 times
+method ClexPass::rm-toks-7 worked 0 times and failed 94 times
+method ClexPass::rm-toks-8 worked 0 times and failed 94 times
 method ClexPass::rm-toks-9 worked 0 times and failed 98 times
 method CommentsPass worked 0 times and failed 1 times
-method LinesPass::10 worked 0 times and failed 44 times
-method LinesPass::6 worked 0 times and failed 46 times
-method LinesPass::8 worked 0 times and failed 43 times
-method PeepPass::a worked 0 times and failed 27 times
+method LinesPass::10 worked 0 times and failed 43 times
+method LinesPass::6 worked 0 times and failed 44 times
+method LinesPass::8 worked 0 times and failed 46 times
+method PeepPass::a worked 0 times and failed 28 times
 typedef struct {
   int a[8 * sizeof 0]
 } b;
